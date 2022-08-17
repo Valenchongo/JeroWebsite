@@ -6,24 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jero</title>
     <script src="https://kit.fontawesome.com/f6f72a1d5d.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <nav>
-        <img src="" alt="" class="logo">
+        <img src="" alt="" class="logo" >
         <button class="hamburger">
             <i class="fa-solid fa-bars"></i>
         </button>
     </nav>
 
     <section class="principal">
-        <img class = "foto_jero " src="img/imgprinc.png" alt="">
+        <img class = "foto_jero " src="img/imgprinc.png" data-aos="fade-up" >
        <div class="principal_info"> 
         <h3>Transforma tu cuerpo y tu vida con un plan adecuado para vos</h3>
         <button class="asesoria"> quiero una asesoria </button>
     </div>
     </section>
-    <section class="sobremi">
+    <section class="sobremi" data-aos="fade-up">
         <h3 class="sobremi_h3">SOBRE MÍ</h3>
         <div class="barr"></div>
         <h2 class = "sobremi_h2">¿Quien soy?</h2>
@@ -31,10 +32,16 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iusto obcaecati molestias, perferendis excepturi vitae recusandae sed voluptatem. Fuga neque quia molestiae animi maiores facilis consectetur vitae ullam eveniet officiis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga reprehenderit voluptate perferendis, sed ipsa nobis, laudantium commodi minus ipsum explicabo, mollitia officia molestiae numquam qui quibusdam labore hic. Eius, vero!</p>
 
         
-            <img  src="img/cambio.png" alt="" class =" cambio">
-           
-       
+            <img  src="img/cambio.png" alt="" class =" cambio" data-aos="fade-up">
+    </section>
+    <section class="servicios">
+        <h3 class="servicios_h3"> SERVICIOS </h3>
+        <h2 class="servicios_h2"> ¿Que incluye el plan? </h2>
     </section>
     <link rel="stylesheet" href="funciones.js">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

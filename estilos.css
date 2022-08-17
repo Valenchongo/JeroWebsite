@@ -62,7 +62,7 @@ nav{
 .sobremi{
     padding: 20px;
     margin-top: 30px;
-    border-bottom: 1px solid rgb(77, 76, 76);
+    
 }
 h2{
 font-size: 29px;
@@ -83,9 +83,18 @@ font-size: 29px;
     display: flex;
     flex-direction: row;
 }
-.cambio{
-    
-    width:100%;
-    
+.cambio{    
+    width:100%;  
    
+}
+.servicios{
+    padding: 20px;
+    margin-top: 0;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: #222222;
+}
+.servicios_h3{
+    color:  rgb(183, 180, 180);
 }

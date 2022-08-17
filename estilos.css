@@ -1,0 +1,91 @@
+body{
+    background-color: #1e1f26;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+nav{
+    height: 90px;
+    background-color:#222222 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hamburger{
+   width: 55px;
+   height: 60px;
+   margin-top: 15px;
+   margin-right: 15px;
+   background-color:  #1e1f26;
+   color: white;
+   border: #1e1f26;
+
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foto_jero{
+   margin-top: 60px;
+}
+
+.principal_info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(77, 76, 76);
+}
+
+.asesoria{
+  width: 250px;
+  height: 44px;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #f0d561;
+  border:  #f0d561;
+  margin-bottom: 30px;
+  
+}
+
+.sobremi{
+    padding: 20px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(77, 76, 76);
+}
+h2{
+font-size: 29px;
+}
+.barr{
+    width: 76px;
+    height: 6px;
+    background-color:#f0d561 ;
+}
+
+.sobremi_h3{
+    color: rgb(152, 148, 148);
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+.cambiojero{
+    display: flex;
+    flex-direction: row;
+}
+.cambio{
+    
+    width:100%;
+    
+   
+}

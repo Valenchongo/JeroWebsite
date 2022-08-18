@@ -57,7 +57,6 @@ nav{
   border:  #f0d561;
   margin-bottom: 30px;
   color: black;
-    
   
 }
 
@@ -74,7 +73,10 @@ font-size: 29px;
     height: 6px;
     background-color:#f0d561 ;
 }
-
+.sobremi{
+    display: flex;
+    flex-direction: column;
+}
 .sobremi_h3{
     color: rgb(152, 148, 148);
     margin-bottom: 10px;
@@ -90,12 +92,38 @@ font-size: 29px;
    
 }
 .servicios{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
-    margin-top: 0;
+    margin-top: 0;  
     height: 150px;
     text-align: center;
     background-color: #222222;
 }
 .servicios_h3{
     color:  rgb(183, 180, 180);
+}
+
+.contenedor_servicios{
+    height: 500px;
+    background-color: #5b5122;
+    margin-top: 30px;
+    border: 5px solid #f0d561 ;
+}
+
+.pesa{
+    width: 150px;
+    border-radius: 90px;
+    margin-top: 20px;
+}
+
+.contenedor_servicios_h2{
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.contenedor_servicios_h4{
+    font-weight: 100;
+    font-size: 20px;
+
 }

@@ -6,6 +6,10 @@ body{
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
 nav{
     height: 90px;
     background-color:#222222 ;
@@ -24,14 +28,18 @@ nav{
    border: #1e1f26;
 
 }
-.principal{
+#principal{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .foto_jero{
+    margin: auto;
    margin-top: 60px;
+   width: 300px;
+   height: 300px;
+   border-radius: 500px;   
 }
 
 .principal_info{
@@ -60,9 +68,11 @@ nav{
   
 }
 
-.sobremi{
+#sobremi{
+    display: flex;
     padding: 20px;
     margin-top: 30px;
+    flex-direction: column;
     
 }
 h2{
@@ -91,7 +101,7 @@ font-size: 29px;
     width:100%;  
    
 }
-.servicios{
+#servicios{
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -126,4 +136,36 @@ font-size: 29px;
     font-weight: 100;
     font-size: 20px;
     padding: 10px;
+
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+}
+.div_mobile{
+   display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    display: none;
+   
+}
+
+.div_mobiledespleged{
+    display: flex;
+    transition: 1s;
+    
+}
+
+.mobile_a{
+    
+    background-color:#1e1f26 ;
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    padding-top: 30px;
+    color: white;
+    padding-left: 10px;
+    
 }

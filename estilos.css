@@ -257,6 +257,7 @@ font-size: 29px;
 }
 .title_subs{
     background-color:#f0d561 ;
+    border: 1px solid #f0d561 ;
     height: 80px;
     text-align: center;
     font-size: 25px;

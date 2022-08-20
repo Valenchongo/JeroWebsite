@@ -234,8 +234,47 @@ font-size: 29px;
     height: 60px;
     text-align: center;
     font-size: 25px;
-    font-weight: 680;
+    font-weight: 500;
     color: black;
     padding-top: 10px;
+    
+}
+
+.subs{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color: #5b5122;
+    margin-top: 30px;
+    border: 5px solid #f0d561 ;
+    width: 93%;
+    margin: auto;  
+    font-size: 20px;
+    font-weight: 10;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+}
+.title_subs{
+    background-color:#f0d561 ;
+    height: 80px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    
+}
+.title_subs p{
+    font-size: 16px;
+    
+    
+}
+.subs h3 b{
+    font-size: 30px;
+   
+}
+
+.asesoriasubs{
+    height:50px;
     
 }

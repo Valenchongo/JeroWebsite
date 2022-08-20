@@ -115,7 +115,7 @@ font-size: 29px;
     flex-direction: column;
     padding: 20px;
     margin-top: 0;  
-    height: 150px;
+
     text-align: center;
     background-color: #222222;
 }
@@ -127,7 +127,7 @@ font-size: 29px;
 }
 
 .contenedor_servicios{
-    height: 500px;
+    height: 385px;
     background-color: #5b5122;
     margin-top: 30px;
     border: 5px solid #f0d561 ;
@@ -181,5 +181,61 @@ font-size: 29px;
     padding-top: 30px;
     color: white;
     padding-left: 10px;
+    
+}
+
+.x{
+  display: flex;
+  justify-content: center
+}
+.incluye{
+    display: flex;
+    flex-direction: column;
+}
+.ahora{
+    align-self: center;
+    margin-top: 40px;
+    width: 250px;
+  height: 44px;
+  border-radius: 25px;
+  margin-top: 70px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #f0d561;
+  border:  #f0d561;
+  margin-bottom: 70px;
+  color: black;
+  font-weight: 600;
+}
+
+.incluye_div{
+    display: flex;
+    flex-direction: column;
+    height: 385px;
+    background-color: #5b5122;
+    margin-top: 30px;
+    border: 5px solid #f0d561 ;
+    width: 93%;
+    margin: auto;
+    
+    font-size: 20px;
+    font-weight: 10;
+}
+.contenedorh4{
+    align-self: center;
+    margin-top: 20px;
+}
+.incluye_div h4{
+    font-weight: 400;  
+    padding-bottom: 10px;
+}
+.incluyediv_title{
+    background-color:#f0d561 ;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 680;
+    color: black;
+    padding-top: 10px;
     
 }

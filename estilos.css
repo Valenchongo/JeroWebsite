@@ -320,6 +320,18 @@ font-size: 29px;
     padding: 15px;
     font-weight: 400;
 }
+.wpp{
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    bottom: 20px;
+    right: 10px;
+    font-size:50px;
+    background-color: #0df053;
+    color: white;
+    text-align: center;
+    border-radius: 70px;
+  }
 
 @media (min-width:720px){
     #principal{
@@ -398,5 +410,18 @@ font-size: 29px;
     margin-top: 100px;
   }
 
+  .wpp{
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    bottom: 30px;
+    right: 30px;
+    font-size:50px;
+    background-color: #0df053;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+  }
   
 }
+

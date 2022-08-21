@@ -370,6 +370,9 @@ font-size: 29px;
  }
 
 @media (min-width:720px){
+     .fa-brands {
+    margin-top: 0;
+  }
     #principal{
         display: flex;
         flex-direction: row;

@@ -334,7 +334,7 @@ font-size: 29px;
     
     
   }
-.fa-brands {
+  .fa-brands {
     margin-top: 10px;
   }
   footer{
@@ -366,13 +366,14 @@ font-size: 29px;
     align-self: center;
     margin-top: 10px;
     height: 70px;
-    
+    width: 135px;
+   
  }
 
 @media (min-width:720px){
-     .fa-brands {
-    margin-top: 0;
-  }
+    .fa-brands {
+        margin-top: 0;
+      }
     #principal{
         display: flex;
         flex-direction: row;

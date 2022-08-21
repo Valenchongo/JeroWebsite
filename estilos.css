@@ -334,6 +334,9 @@ font-size: 29px;
     
     
   }
+.fa-brands {
+    margin-top: 10px;
+  }
   footer{
     height: 120px;
     display: flex;

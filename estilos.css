@@ -127,7 +127,7 @@ font-size: 29px;
 }
 
 .contenedor_servicios{
-    height: 385px;
+    height: 100%;
     background-color: #5b5122;
     margin-top: 30px;
     border: 5px solid #f0d561 ;
@@ -243,7 +243,7 @@ font-size: 29px;
 .subs{
     display: flex;
     flex-direction: column;
-    height: 360px;
+    height: 100%;
     background-color: #5b5122;
     margin-top: 30px;
     border: 5px solid #f0d561 ;

@@ -184,6 +184,11 @@ font-size: 29px;
     
 }
 
+.mobile_a:hover{
+    color: #f0d561;
+   
+}
+
 .x{
   display: flex;
   justify-content: center

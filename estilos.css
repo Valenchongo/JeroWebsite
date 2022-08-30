@@ -374,6 +374,12 @@ font-size: 29px;
     width: 135px;
    
  }
+ #sobremi p {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  
+}
 
 @media (min-width:720px){
     .fa-brands {
@@ -409,8 +415,9 @@ font-size: 29px;
     }
     
     #sobremi p {
-        width: 95%;
+        width: 60%;
         margin: auto;
+        text-align: center;
       
     }
     .servicion_cont{
@@ -455,6 +462,7 @@ font-size: 29px;
     margin-top: 100px;
   }
 
+ 
  
   
 }

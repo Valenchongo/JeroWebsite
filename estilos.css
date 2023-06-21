@@ -60,6 +60,58 @@ nav{
     font-weight: 400;
     padding: 10px;
 }
+#ebook_principal{
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-bottom: 1px solid rgb(77, 76, 76);
+}
+.contenedor_img_ebook_principal{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+
+}
+
+.contenedor_img_ebook_principal img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 50px;
+}
+
+.barr_ebook{
+    margin: auto;
+}
+.h3_ebook{
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:5px;
+    color: white;
+}
+#ebook_principal a{
+    margin: auto;
+    
+}
+.button_ebook{
+    
+    width: 250px;
+    height: 44px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #f0d561;
+    border:  #f0d561;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 600;
+}
 
 .asesoria{
   width: 250px;
@@ -76,6 +128,7 @@ nav{
   font-weight: 600;
   
 }
+
 
 #sobremi{
     display: flex;
@@ -200,6 +253,7 @@ font-size: 29px;
 #incluye{
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 }
 .ahora{
     align-self: center;
@@ -222,7 +276,6 @@ font-size: 29px;
     flex-direction: column;
     height: 385px;
     background-color: #5b5122;
-    margin-top: 30px;
     border: 5px solid #f0d561 ;
     width: 93%;
     margin: auto;
@@ -384,7 +437,171 @@ font-size: 29px;
     text-align: center;
   
 }
+#ebook{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.principal-ebook{
+    height: 100%;
+    width: 90%;
+    border:5px solid #f0d561;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+}
 
+.principal-ebook p{
+    color: black;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 24px;
+}
+.contenedor_img_ebook{
+    width: 98%; 
+    margin: auto;
+    overflow: hidden; 
+    margin-top: 50px;
+    margin-bottom:10px ;
+}
+.contenedor_img_ebook img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+
+.price_ebook{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #5b5122;
+    margin-top: 30px;
+    border: 5px solid #f0d561 ;
+    width: 86%;
+    margin: auto;  
+    font-size: 20px;
+    font-weight: 10;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+.price_ebook h3{
+    margin-bottom: 0;
+}
+.price_ebook h4{
+    font-size: 30px;
+    font-weight: 1;
+}
+.que_voy_a_aprender{
+    display: flex;
+    flex-direction: column;
+    height: 100%px;
+    background-color:white;
+    border: 5px solid #f0d561 ;
+    width: 93%;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 10;
+    color:black ;
+}
+
+.que_voy_a_aprender h4{
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+.tick{
+color: rgb(38, 163, 38);
+}
+
+.button_quiero_el_ebook{
+    margin: auto;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.contenedor_form{
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    border: 3px solid #f0d561;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.form_title{
+    height: 70px;
+    background-color: #f0d561;
+}
+.form_title h4{
+margin-top: 0;
+padding-top: 10px;
+margin-left: 10px;
+color:  black;
+font-size: 30px;
+font-weight: 400;
+font-family: "Raleway", sans-serif;
+
+}
+.inputs{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 250px;
+}
+.last_input{
+    margin-top: 40px;
+}
+#form input{
+ margin: auto;
+ height: 30px;
+ border: none;
+ border-bottom: 1px solid grey;
+ 
+}
+#form input:hover{
+    border: none;
+    border-bottom: 1px solid grey;   
+   }
+
+
+.sumbit {
+    margin: auto;
+    margin-top: 40px;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-bottom: 25px;
+  }
+  
+  /* Estilos al pasar el cursor por encima del botón */
+  .sumbit:hover {
+    background-color: #217835;
+  }
+  
+  /* Estilos al hacer clic en el botón */
+  .sumbit:active {
+    background-color: #217835;
+  }
 @media (min-width:720px){
     .fa-brands {
         margin-top: 0;
@@ -392,6 +609,7 @@ font-size: 29px;
     #principal{
         display: flex;
         flex-direction: row;
+        border-bottom:1px solid #31333d;
         
     }
     .foto_jero{
@@ -405,6 +623,7 @@ font-size: 29px;
        border: 0;
        margin-right: 100px;
        font-size: 40px;
+       
     }
     button{
         transition: 1s;
@@ -467,7 +686,52 @@ font-size: 29px;
     margin-top: 100px;
   }
 
- 
- 
+
+.contenedor_img_ebook_principal{
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+
+}
+
+.contenedor_img_ebook_principal img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 50px;
+}
+
+.contenedor_img_ebook{
+    width: 500px; 
+    margin: auto;
+    overflow: hidden; 
+    margin-top: 50px;
+    margin-bottom:10px ;
+    border: 4px solid #f0d561;
+    background-color: #f0d561;
+   
+}
+.contenedor_img_ebook img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+
+.price_ebook{
+    max-width: 700px;
+}
+.que_voy_a_aprender {
+    max-width: 700px;
+}
+
+.contenedor_form{
+    max-width: 500px;
+}
+
+.price_ebook h4{
+    font-size: 40px;
+    font-weight: 1;
+}
   
 }

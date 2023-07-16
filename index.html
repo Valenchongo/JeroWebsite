@@ -4,151 +4,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jero</title>
-    <script src="https://kit.fontawesome.com/f6f72a1d5d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
-    <link  rel="shortcut icon" href="img/logo.png">
 </head>
 <body>
-    <nav>
-        <img src="img/logo.png" alt="" class="logo" >
-        <button class="hamburger">
-            <i class="fa-solid fa-bars"></i>
-        </button>
+     <header>
+        <h3 class="name ">Your Logo</h3>
+        <button class="hamburger-button" onclick="toggleMenu()">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+    </header>
+    <nav class="navbar">
+        <div class="contenedor_ul">
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>    
+        </div>
     </nav>
-    <section class="mobile">
-        <div class="div_mobile">
-        <a href="ebook.html" class="mobile_a">EBOOK DISEÑA TU RUTINA</a>
-        <a href="index.html#principal" class="mobile_a">inicio</a>        
-        <a href="index.html#sobremi" class="mobile_a">sobre mí</a>
-        <a href="index.html#servicios" class="mobile_a">Servicios</a>
-        <a href="index.html#incluye" class="mobile_a">Suscripciones</a>
-    </div>
-    </section>
 
     <section id="principal">
-        <img class = "foto_jero " src="img/principalb1.png" data-aos="fade-up"  data-aos-duration="2000">
-       <div class="principal_info"> 
-        <h3>Lográ el cuerpo que buscas con un plan que se adapte a tu estilo de vida</h3>
-        <a href="index.html#incluye"> <button class="asesoria"> quiero una asesoría </button> </a>
-    </div>
+        <h1> Valentin Valle</h1>
+        <h3> Desarrollador Web</h3>
     </section>
 
-    <section id="ebook_principal"data-aos="zoom-in"data-aos-duration="2000">
-        <h3 class=" h3_ebook" >EBOOK DISEÑA TU RUTINA</h3> 
-        <div class="barr barr_ebook"></div>
-        <div class="contenedor_img_ebook_principal"data-aos="zoom-in"data-aos-duration="2000" > 
-            <img src="img/ebook_image.jpeg" alt="Mi imagen"> 
-        </div>
-        <a href="ebook.html"> <button class="button_ebook aos-init aos-animate"> QUIERO SABER MAS </button></a>
-       
-    </section>
-    <section id="sobremi" data-aos="fade-up" data-aos-duration="2000">
-        <h3 class="sobremi_h3">SOBRE MÍ</h3>
-        <div class="barr"></div>
-        <h2 class = "sobremi_h2">¿Quién soy?</h2>
-        <p  data-aos="fade-up"  data-aos-duration="2000">Mi nombre es Jerónimo, tengo 26 años. Soy entrenador personal y preparador físico pero sobre todo un apasionado del entrenamiento y actualmente instructor de musculación en un gimnasio de Buenos Aires.</p> <br>
-        
-        <img  src="img/cambio.png" alt="" class =" cambio" data-aos="fade-up"  data-aos-duration="2000">
-
-        <p  data-aos="fade-up"  data-aos-duration="2000">Toda la vida fui muy flaco y de adolescente me he sentido acomplejado por esto… por lo que desde mis 20 años decidí cambiar no solo mi físico sino también lograr a través de ello una transformación personal.</p> <br>
-
-        <img  src="img/cambio2.png" alt="" class =" cambio" data-aos="fade-up"  data-aos-duration="2000">
-
-        <p  data-aos="fade-up"  data-aos-duration="2000">Me di cuenta que cuanto más entrenaba mejor me sentía conmigo mismo, más cambiaba mi mentalidad y conforme a esto aumentaba la seguridad en mi mismo así que decidí ayudar a otros a hacer este cambio en su vida. </p> <br>
-
-        <img  src="img/cambio3.png" alt="" class =" cambio" data-aos="fade-up"  data-aos-duration="2000">
-
-        <p  data-aos="fade-up"  data-aos-duration="2000">Estoy agradecido de saber que he ayudado a decenas de personas a lograr el cuerpo que buscan y quiero ayudarte a vos también! </p> <br>
-
-        
-        <a href="index.html#incluye"> <button class="asesoria"  data-aos="fade-up"  data-aos-duration="2000"> quiero una asesoría </button> </a>
-    </section>
-    <section id="servicios">
-        <h3 class="servicios_h3"> SERVICIOS </h3>
-        <h2 class="servicios_h2" > ¿Qué incluye el plan? </h2>
-       <div class="servicion_cont">
-
-        <div class="contenedor_servicios" data-aos="fade-up"  data-aos-duration="2000">
-            <img src="img/pesa.png" class="pesa">
-            <h2 class="contenedor_servicios_h2"> Rutina de entrenamiento</h2>
-            <h4 class="contenedor_servicios_h4"> Plan de entrenamiento adaptado a tu nivel </h4>
+    <section id="plantillas">
+        <div data-aos="fade-up" >        
+            <h3> ¿Como funciona? </h3>
+            <div  class="sub"></div>
         </div>
 
-        <div class="contenedor_servicios" data-aos="fade-up"  data-aos-duration="2000"> 
-            <img src="img/comida.png" class="pesa">
-            <h2 class="contenedor_servicios_h2">Plan de alimentación</h2>
-            <h4 class="contenedor_servicios_h4">con opciones para cada día de la semana , recetas fit y adaptadas a tu gusto personal </h4>
-        </div>
-
-        <div class="contenedor_servicios" data-aos="fade-up"  data-aos-duration="2000" >
-            <img src="img/actualizacion.png" class="pesa">
-            <h2 class="contenedor_servicios_h2">Seguimiento semanal</h2>
-            <h4 class="contenedor_servicios_h4"> Seguimiento semanal para comprobar tus resultados mediante fotos medidas etc. </h4>
-        </div>
-    </div>
+        <div  data-aos="fade-up">
+            <p >
+                Para crear su página web, solo necesito que me proporcione los textos deseados, imágenes y testimonios de sus clientes. Con esa información, trabajaré en el diseño y desarrollo de su página, asegurándome de que sea atractiva y fácil de navegar. Realizaré pruebas exhaustivas antes de entregarle el sitio web finalizado.
+            </p>
     
-    </section>
-    <section id="incluye">
-        
-        <div class="incluye_div">
-         <div class="incluyediv_title"> El asesoramiento incluye</div>
-         <div class="contenedorh4" data-aos="fade-up"  data-aos-duration="2000">
-         <h4>  <i class="fa-solid fa-circle-check"></i>  Rutina personalizada</h4>
-         <h4>  <i class="fa-solid fa-circle-check"></i>  Dieta de comidas</h4>
-         <h4>  <i class="fa-solid fa-circle-check"></i>  Asesoramiento vía WhatsApp</h4>
-         <h4>  <i class="fa-solid fa-circle-check"></i>  Actualización mes a mes</h4>
-        </div>
-        </div>
-        <div class="final">
-        <div class="subs" data-aos="fade-up"  data-aos-duration="2000">
-          <div class="title_subs">Suscripción de 1 mes <br> <p> USD 15 por mes  </p></div>
-          <h3> $ 4.500  <b>/ mes</b> </h3>
-         <a href="https://mpago.la/2K8PCWi" target="_blank" class=""> <button class="asesoria asesoriasubs">QUIERO EL ASESORAMIENTO</button> </a>
+            <p >Tenga en cuenta que puedo personalizar su página web agregando o eliminando secciones según sus preferencias. Adaptaré el diseño para que refleje su negocio de manera precisa y brinde la información relevante que desee destacar.
+            </p>
         </div>
 
-          <div class="subs" data-aos="fade-up"  data-aos-duration="2000">
-            <div class="title_subs">Suscripción de 3 meses <br> <p> USD 62 por 3 meses  </p></div>
-            <h3> $ 12.000  <b>/ 3 meses</b> </h3>
-           <a href="https://mpago.la/1NEhML3"  target="_blank"> <button class="asesoria asesoriasubs"> QUIERO EL ASESORAMIENTO</button></a>
-          </div>
+        <div data-aos="fade-up">
+            <h3 class="h3_plantillas"> Plantillas </h3>
+            <div class="sub" ></div>
         </div>
 
-          
-    </section>
-
-    <section id="preguntas">
-        <div class="preguntas_title">
-        <h3 class="sobremi_h3" data-aos="fade-up"  data-aos-duration="2000"> PREGUNTAS FRECUENTES</h3>
-        <div class="barr" data-aos="fade-up"  data-aos-duration="2000"></div>
-    </div>
-        <div class="qa" data-aos="fade-up"  data-aos-duration="2000">
-            <div class="contenedor_pregunta">
-                <div class="pregunta" >¿ Como / cuando recibiré mi asesoría ?</div>
+        <div class="container_plantillas">
+            <div>
+                <div data-aos="fade-right" class="title_web">
+                    <div class="sub_h4"></div>
+                    <h5 class="title_plantilla"> LIGHT</h5>
+                
+                </div>
+                <a href="White_One/index.html"><img class="img_cliente" src="img/white_one.png" alt=""> </a>
             </div>
-            <p>Una vez elijas un plan y completes el formulario, en un plazo de 72 hs aprox. te estará llegando tu plan con todo el contenido al número de WhatsApp que hayas ingresado</p>
+
+            <div>
+                <div data-aos="fade-right" class="title_web">
+                    <div class="sub_h4"></div>
+                    <h5 class="title_plantilla"> DARK</h5>
+                
+                </div>
+                <a href="Red_One/index.html"><img class="img_cliente" src="img/red_one.png" alt=""> </a>
+            </div>
         </div>
     </section>
-    
-    <a href="https://api.whatsapp.com/send?phone=541157828227" class="wpp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
-    
+
+    <section id="ofrece">
+        <h3>¿Que ofrezco?</h3>
+        <div class="sub"></div>
+
+        <div data-aos="fade-right" class="container_offer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                <path d="M21 21l-6 -6"></path>
+            </svg>
+            <p>Una web personalizada segun tus gustos y necesidades</p>
+        </div>
+
+        <div data-aos="fade-left" class="container_offer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14z"></path>
+                <path d="M11 4h2"></path>
+                <path d="M12 17v.01"></path>
+            </svg>
+            <p>Una web con <b>responsive design</b> apta para telefonos mobiles y computadoras</p>
+        </div>
+
+        <div data-aos="fade-right" class="container_offer ultima_offer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt" width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11"></path>
+            </svg>
+            <p>Una entrega super rapida, en menos de 2 semanas!</p>
+        </div>
+    </section>
+
+    <section id="clientes">
+        <div  data-aos="fade-up">
+            <h3> webs de mis clientes</h3>
+            <div class="sub"></div>
+        </div>
+
+        <div data-aos="fade-right" class="title_web">
+            <div class="sub_h4"></div>
+            <h4>pandelofitness</h4>
+            
+        </div>
+        <a href="https://pandelofitness.github.io/Pandelofitness/index.html#principal"><img class="img_cliente" src="img/jero.png" alt=""> </a>
+   </section>
+
+
+
+    <section id="sect_precios">
+        <h3 class="h3_precios"> Precios </h3>
+        <div class="sub"></div>
+        <div class="container_precios_info">
+            <div data-aos="zoom-in" class="precio">
+
+                <h1 class="h1_precio h1_precio_primero">Tene tu web por</h1> 
+                <h2>$39.999</h2>
+                <a href=""> <button class="button_precio"> Quiero la web </button> </a>
+            </div>
+        
+            <div data-aos="zoom-in" class="contenedor-modificaciones">
+                <h4 class="h4_price">Modificaciones</h4>
+                <div class="sub_precio"></div>
+
+                <p> Una vez que tengas tu sitio web, si deseas realizar modificaciones en textos o imágenes, se aplicará un costo de $2.000 el cambio.</p>
+
+                <p>En caso de que desees agregar una nueva sección o realizar cambios más significativos en tu sitio web, se aplicará un costo de $20.000 por cada modificación.</p>
+
+            </div>
+        </div>
+    </section>
+        <section id="importante">
+            <div data-aos="fade-right">
+                <h3>¿Por que es importante tener un sitio web?</h3>
+                <div class="sub_importante"></div>
+            </div>
+            
+            <p>tener un sitio web para un emprendimiento o negocio es esencial para aprovechar al máximo el potencial en línea, llegar a un público más amplio, fortalecer la imagen de marca y establecer relaciones sólidas con los clientes. Es una inversión valiosa que puede impulsar el crecimiento y el éxito a largo plazo.</p>
+            
+            <a href=""> <button class="button_precio"> CONTACTAME </button> </a>
+    </section>
+
+
 
     <footer>
-            <h3 class="sobremi_h3 h3foo"> MIS REDES</h3>
-            <div class="footer_img">
-                <a href="https://www.instagram.com/jeronimopandelo/?hl=es" target="_blank">
-            <img src="img/ig.png" alt="" class="instagram">
-        </a>
-        <a href="https://www.tiktok.com/@jeronimopandelofit" target="_blank">
-            <img src="img/tiktok.png" alt="" class="tiktok">
-        </a>
+        <div class="logo_footer">        
+            <h2>Your Logo</h2>
+            <h3>Valentin Valle</h3>
+            <div class="sub_footer" ></div>
         </div>
-    </footer>
-    <script src="funciones.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+
+        <div class="social_media">
+            <a href="" target="_blank"><img src="White_One/img/instagram.png" alt="" class="instagram social"></a>
+            <a href="" target="_blank"><img src="White_One/img/tiktok.png" alt="" class="tiktok social"></a>
+        </div>
+        <h3 class="email"> valentinvalle41@gmail.com</h3>
+
+      </footer>
+
+      <script src="code.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+          AOS.init({duration:1000});
+        </script>
 </body>
 </html>

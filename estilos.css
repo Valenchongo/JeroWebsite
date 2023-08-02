@@ -1,0 +1,1228 @@
+body{
+  background-color: #1e1f26;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
+nav{
+  height: 90px;
+  background-color:#222222 ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hamburger{
+ width: 55px;
+ height: 60px;
+ margin-top: 15px;
+ margin-right: 15px;
+ background-color:  #1e1f26;
+ color: white;
+ border: #1e1f26;
+
+}
+
+.logo{
+  margin-left: 10px;
+}
+#principal{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url('img/img_principal.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 75vh;
+  width: 100%;
+  
+  
+}
+.primer_h4{
+  padding-top: 100px;
+}
+
+.principal_info{
+  text-align:center;
+  align-self: center;
+  margin-top: 100px;
+}
+
+#principal h4{
+  font-size: 25px;
+  margin-bottom: 0;
+  font-weight: 800;
+  width: 95%;
+  margin: auto;
+}
+.h4_amarillo{
+  color: #f0d561;
+}
+.substitulo{
+  width: 90%;
+  background-color: transparent;
+  border: 1px solid #f0d561;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;   
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+.substitulo h5{
+  font-size: 15px;
+  font-weight: 500;
+  margin: auto;
+  text-align: center;
+  width: 95%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.description{
+  background-color: black;
+}
+.description h5{
+  font-size: 25px;
+  font-weight: 1;
+  margin-top: -10px;
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.h3_para_que{
+  font-weight: 800;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 30px;
+
+}
+.h3_plan{
+  font-weight: 800;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  color: #f0d561;
+}
+#para_quien{
+border-bottom: 1px solid grey;
+}
+.h5_para_que{
+  width: 90%;
+  font-size: 25px;
+  font-weight: 300;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.cart_price{
+  border:1px solid #f0d561;
+  width: 90%;
+  height: 600px;
+  max-width: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-position: center;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+.cart_basic{
+  background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url('img/jero-basico.jpeg');
+}
+.cart_avan{
+  margin-bottom: 50px;
+  background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url('img/jero-avanzado.jpeg');
+}
+
+.cart_medio{
+  background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url('img/jero-medio.jpeg');
+}
+
+#resultados{
+  border-bottom: 1px solid grey;
+}
+.h3_primero_Cart{
+  padding-top: 60px;
+}
+.h3_cart{
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+}
+.h3_bas{
+  margin-top: 0;
+}
+.h3_cart b{
+  padding: 0;
+  font-weight:600;
+  font-size:15px;
+}
+.price_usd{
+  margin: auto;
+  margin-top: -15px;
+  text-align: center;
+  font-size: 35px;
+  color: #f0d561;
+
+}
+.ticks{
+  display: flex;
+  flex-direction: row;
+}
+.list_cart{
+ width: 90%;
+ text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+.list_cart_med{
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+.list_cart_avan{
+margin-top: 30px;
+}
+.list_cart_avan p{
+
+  margin-top:-10PX;
+  padding: 0;
+  text-align: center;    
+  font-size: 16px;
+}
+.h3_med{
+  padding-top: 30px;
+}
+.button_mid{
+  margin-top: 0;
+}
+.list_cart p{
+  
+  padding: 0;
+  font-size: 20px;
+     
+}
+
+.list_cart_med p{
+  padding: 0;
+  margin-top:-10px;
+  font-size: 20px;
+    
+}
+
+.aa{
+  margin: auto;
+  justify-content: center;
+  
+}
+.div_button_plan{
+  text-align: center;
+  width: 250px;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+.button_avan{
+  margin-top: 30px;
+  
+}
+.button_plan{
+  width: 250px;
+  color: #f0d561;
+  font-size: 20px;
+  border-radius: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid #f0d561;
+
+}
+
+.contenedor-modificaciones{
+  width: 80%;
+  max-width:700px ;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  border: 5px solid #f0d561;
+
+}
+.p_price{
+  font-size: 10px;
+}
+.p_price i{
+  color: #0ea53e;
+}
+.contenedor_para_vos{
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  border: 5px solid #f0d561;
+}
+.contenedor_para_vos p{
+  color: black;
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 15px;
+}
+
+.h4_price{
+  margin-left: 0;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.contenedor-modificaciones p{
+  color: black;
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 15px;
+ 
+}
+.sub_precio{
+  width: 80px;
+  height: 5px;
+  background-color: #e8c00c;
+  margin-left: 10px;
+  margin-top: 0px;    
+}
+.foto_jero{
+  margin: auto;
+ margin-top: 60px;
+ width: 80%;
+ height:80%;
+ border-radius: 500px;   
+}
+
+.principal_info{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(77, 76, 76);
+}
+.principal_info h3{
+  font-weight: 400;
+  padding: 10px;
+}
+#ebook_principal{
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-bottom: 1px solid rgb(77, 76, 76);
+}
+.contenedor_img_ebook_principal{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 50px;
+
+}
+
+.contenedor_img_ebook_principal img{
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 50px;
+}
+
+
+.h3_ebook{
+  margin-bottom: 10px;
+  font-size: 15px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom:5px;
+  color: white;
+}
+#ebook_principal a{
+  margin: auto;
+  
+}
+.button_ebook{
+  
+  width: 250px;
+  height: 44px;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #f0d561;
+  border:  #f0d561;
+  margin-bottom: 30px;
+  color: black;
+  font-weight: 600;
+}
+
+.asesoria{
+width: 250px;
+height: 44px;
+border-radius: 25px;
+margin: auto;
+margin-top: 20px;
+font-weight: bold;
+font-size: 17px;
+background-color: #f0d561;
+border:  #f0d561;
+margin-bottom: 30px;
+color: black;
+font-weight: 600;
+
+}
+
+#precios{
+  border-bottom: 1px solid grey;
+}
+#sobremi{
+  display: flex;
+  padding: 20px;
+  margin-top: 30px;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+  
+}
+#sobremi a{
+  margin: auto;
+}
+
+h2{
+font-size: 29px;
+}
+.barr{
+  width: 76px;
+  height: 6px;
+  background-color:#f0d561 ;
+  margin-left: 10px;
+}
+.barr_ebook{
+  margin: auto;
+}
+
+.sobremi{
+  display: flex;
+  flex-direction: column;
+}
+.sobremi_h3{
+  color: rgb(152, 148, 148);
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  
+}
+.cambiojero{
+  display: flex;
+  flex-direction: row;
+}
+.cambio{    
+  width:100%;  
+ 
+}
+#servicios{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 0;  
+
+  text-align: center;
+  background-color: #222222;
+}
+.servicios_h3{
+  color:  rgb(183, 180, 180);
+}
+.servicios_h2{
+ font-weight:400;
+}
+
+.contenedor_servicios{
+  height: 100%;
+  background-color: #5b5122;
+  margin-top: 30px;
+  border: 5px solid #f0d561 ;
+}
+
+.pesa{
+  width: 150px;
+  border-radius: 90px;
+  margin-top: 20px;
+}
+
+.contenedor_servicios_h2{
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.contenedor_servicios_h4{
+  font-weight: 100;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.mobile{
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  
+}
+.div_mobile{
+ display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: none;
+ 
+}
+
+.div_mobiledespleged{
+  display: flex;
+  transition: 1s;
+  
+}
+
+.mobile_a{
+  
+  background-color:#1e1f26 ;
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  padding-top: 30px;
+  color: white;
+  padding-left: 10px;
+  
+}
+
+.mobile_a:hover{
+  color: #f0d561;
+ 
+}
+
+.x{
+display: flex;
+justify-content: center
+}
+#incluye{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.ahora{
+  align-self: center;
+  margin-top: 40px;
+  width: 250px;
+height: 44px;
+border-radius: 25px;
+margin-top: 70px;
+font-weight: bold;
+font-size: 17px;
+background-color: #f0d561;
+border:  #f0d561;
+margin-bottom: 70px;
+color: black;
+font-weight: 600;
+}
+
+.incluye_div{
+  display: flex;
+  flex-direction: column;
+  height: 385px;
+  background-color: #5b5122;
+  border: 5px solid #f0d561 ;
+  width: 93%;
+  margin: auto;
+  
+  font-size: 20px;
+  font-weight: 10;
+}
+.contenedorh4{
+  align-self: center;
+  margin-top: 20px;
+}
+.incluye_div h4{
+  font-weight: 400;  
+  padding-bottom: 10px;
+}
+.incluyediv_title{
+  background-color:#f0d561 ;
+  height: 60px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  padding-top: 10px;
+  
+}
+
+.subs{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #5b5122;
+  margin-top: 30px;
+  border: 5px solid #f0d561 ;
+  width: 93%;
+  margin: auto;  
+  font-size: 20px;
+  font-weight: 10;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 40px;
+}
+.title_subs{
+  background-color:#f0d561 ;
+  border: 5px solid #f0d561 ;
+  height: 80px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  
+}
+.title_subs p{
+  font-size: 16px;
+  
+  
+}
+.subs h3 b{
+  font-size: 30px;
+ 
+}
+
+.asesoriasubs{
+  height:50px;
+  
+}
+
+#preguntas{
+  margin-top: 100px;
+  
+}
+#preguntas h3{
+  padding-left: 20px;
+}
+#preguntas .barr{
+  margin-left: 20px;
+}
+.container_preguntas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+.qa{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: white;
+  border-bottom: 5px solid #f0d561;
+  width: 95%;
+  margin: auto;
+  margin-top: 40px;
+  color: black;
+
+}
+.contenedor_pregunta{
+  color: white; 
+  width: 100%;
+  margin: auto;
+
+}
+.pregunta{
+  padding-left: 15px;
+  height: 50px;
+  background-color:#5b5122 ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight:500 ;
+  
+}
+.barr_plan{
+  margin: auto;
+}
+.qa p{
+  padding: 15px;
+  font-weight: 400;
+}
+.wpp{
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 20px;
+  right: 10px;
+  font-size:30px;
+  background-color: #0df053;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  
+  
+}
+.fa-brands {
+  margin-top: 6px;
+}
+footer{
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #31333d;
+  margin-top: 50px;
+}
+.instagram{
+  width: 50px;
+  height: 50px;;
+  margin-bottom: 4px;
+  margin-right: 10px;
+  
+}
+.tiktok{
+  
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  
+}
+.h3foo{
+  align-self: center;
+}
+.footer_img{
+  align-self: center;
+  margin-top: 10px;
+  height: 70px;
+  width: 135px;
+ 
+}
+#sobremi p {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+
+}
+#ebook{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.principal-ebook{
+  height: 100%;
+  width: 90%;
+  border:5px solid #f0d561;
+  background-color: white;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.principal-ebook p{
+  color: black;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 24px;
+}
+.contenedor_img_ebook{
+  width: 98%; 
+  margin: auto;
+  overflow: hidden; 
+  margin-top: 50px;
+  margin-bottom:10px ;
+}
+.contenedor_img_ebook img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.price_ebook{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #5b5122;
+  margin-top: 30px;
+  border: 5px solid #f0d561 ;
+  width: 86%;
+  margin: auto;  
+  font-size: 20px;
+  font-weight: 10;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+.price_ebook h3{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  
+}
+.price_ebook h4{
+  font-size: 30px;
+  font-weight: 1;
+}
+.que_voy_a_aprender{
+  display: flex;
+  flex-direction: column;
+  height: 100%px;
+  background-color:white;
+  border: 5px solid #f0d561 ;
+  width: 93%;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 10;
+  color:black ;
+}
+.que_voy_a_aprender {
+  margin-bottom: 30px;
+}
+.que_voy_a_aprender h4{
+  font-weight: 400;
+  width: 90%;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 15px;
+}
+.tick{
+color: rgb(38, 163, 38);
+}
+
+.button_quiero_el_ebook{
+  margin: auto;
+  align-self: center;
+  margin-top: 50px;
+}
+
+.contenedor_form{
+  width: 80%;
+  height: 400px;
+  background-color: white;
+  border: 3px solid #f0d561;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.form_title{
+  height: 70px;
+  background-color: #f0d561;
+}
+.form_title h4{
+margin-top: 0;
+padding-top: 10px;
+margin-left: 10px;
+color:  black;
+font-size: 30px;
+font-weight: 400;
+font-family: "Raleway", sans-serif;
+
+}
+.inputs{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+
+
+ 
+}
+.cont_form_asesoria{
+  height: 100%;
+}
+label{
+  color: black;
+  font-size: 13px;
+  padding-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+select{
+  width: 200px;
+  margin: auto;
+  margin-left: 60px;
+}
+.last_input{
+  margin-top: 10px;
+}
+#form input{
+margin: auto;
+margin-top: 10px;
+height: 30px;
+border: none;
+border-bottom: 1px solid grey;
+
+}
+#form input:hover{
+  border: none;
+  border-bottom: 1px solid grey;   
+ }
+
+
+.sumbit {
+  margin: auto;
+  margin-top: 40px;
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding-bottom: 25px;
+}
+
+/* Estilos al pasar el cursor por encima del botón */
+.sumbit:hover {
+  background-color: #217835;
+}
+
+/* Estilos al hacer clic en el botón */
+.sumbit:active {
+  background-color: #217835;
+}
+
+.boton_mp{
+  background-color: #47B9D3;
+  display: flex;
+  flex-direction: row;
+  
+
+}
+.boton_mp p{
+  margin: auto;
+}
+.boton_mp img{
+  width: 40px;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.boton_mp:hover{
+  background-color: #47B9D3;
+}
+
+.boton_pp{
+  background-color: #f0d561;
+  display: flex;
+  flex-direction: row;
+}
+
+.boton_pp img{
+  width: 40px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.boton_pp p{
+  margin: auto;
+}
+.aviso{
+  background-color: white;
+  color:  black;
+  border: 3px solid #f0d561;
+  width: 350px;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+.section_aviso{
+  height: 61vh;
+
+}
+.aviso h3{
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+}
+.aviso p{
+width: 90%;
+margin: auto;
+margin-top: 10px;
+text-align: center;
+font-size: 20px;
+margin-top: 30px;
+
+}
+.sub_aviso{
+  width: 100px;
+  height: 3px;
+  background-color: #f0d561;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.bienvenida{
+  border: 3px solid #e8c00c;
+  background-color: white;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 10vh;
+  color: black;
+}
+.bienvenida h3{
+
+  text-align: center;
+  font-size: 30px;
+}
+.bienvenida p{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bienvenida a{
+  margin:auto;
+}
+.button_form_as{
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 130px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition:1s;
+  text-align: left;
+}
+.button_form_as:hover{
+  background-color: #1e8736;
+  color: white;
+}
+.button_form_as p{
+  font-weight: 1;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+  
+  
+
+}
+
+@media (min-width:720px){
+  .fa-brands {
+      margin-top: 0;
+    }
+  #principal{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+  }
+  .foto_jero{
+      width: 600px;
+      margin-left: 70px;
+      transition: 2s;
+  }
+
+
+  .description h5{
+      max-width: 1200px;
+     
+  }
+  
+  .contenedor_de_precios{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .h3_plan{
+      margin-top: 70px;
+  }
+  .principal_info{
+     max-width:600px;
+     border: 0;
+     margin-right: 100px;
+     font-size: 40px;
+     
+  }
+  .contenedor-modificaciones p{
+      font-size: 20px;
+  }
+  button{
+      transition: 1s;
+  }
+  button:hover{
+      background-color: #776a2d;
+      color: black;
+  }
+
+  .cambio{
+      width: 600px;
+      margin: auto;
+  }
+  
+  #sobremi p {
+      width: 65%;
+      margin: auto;
+      text-align: center;
+      font-size: 20px;
+    
+  }
+  .servicion_cont{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .contenedor_servicios {
+      max-width: 400px;
+      height: 500px;
+
+  }
+  .contenedor_servicios_h2{
+      padding: 10px;
+  }
+  .final{
+      display: flex;
+      flex-direction: row;
+      height: 385px;
+      margin-top: 40px;
+      justify-content: space-between;
+
+  }
+  .incluye_div{
+      margin:auto;
+      width: 600px;
+      margin-bottom: 0;
+  }
+  #preguntas h3{
+      margin-top: 0;
+  }
+  .subs{
+      max-width: 600px;
+     
+  }
+  
+.qa{
+  max-width: 500px;
+}
+
+#preguntas  {
+  margin-top: 100px;
+}
+
+
+.contenedor_img_ebook_principal{
+  width: 350px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 50px;
+
+}
+
+.contenedor_img_ebook_principal img{
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 50px;
+}
+
+.contenedor_img_ebook{
+  width: 500px; 
+  margin: auto;
+  overflow: hidden; 
+  margin-top: 50px;
+  margin-bottom:10px ;
+  border: 4px solid #f0d561;
+  background-color: #f0d561;
+ 
+}
+.contenedor_img_ebook img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.price_ebook{
+  max-width: 700px;
+}
+.que_voy_a_aprender {
+  max-width: 700px;
+}
+
+.contenedor_form{
+  max-width: 500px;
+}
+
+.price_ebook h4{
+  font-size: 40px;
+  font-weight: 1;
+}
+
+.h3_preguntas{
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+}
+.barr_qa{
+  margin: auto;
+  margin-top: 5px;
+  width: 100px;
+}
+}

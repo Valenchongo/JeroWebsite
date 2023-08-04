@@ -849,7 +849,7 @@ color: rgb(38, 163, 38);
 }
 
 .contenedor_form{
-  width: 80%;
+  width: 90%;
   height: 400px;
   background-color: white;
   border: 3px solid #f0d561;
@@ -877,6 +877,7 @@ font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
   margin-top: 40px;
+  width: 100%;
 
 
  
@@ -887,18 +888,19 @@ font-family: "Raleway", sans-serif;
 label{
   color: black;
   font-size: 13px;
-  padding-left: 60px;
+text-align: center;
+  margin: auto;
   margin-top: 20px;
   margin-bottom: 3px;
+  
 }
 select{
   width: 200px;
   margin: auto;
-  margin-left: 60px;
+
+
 }
-.last_input{
-  margin-top: 10px;
-}
+
 #form input{
 margin: auto;
 margin-top: 10px;
@@ -906,6 +908,12 @@ height: 30px;
 border: none;
 border-bottom: 1px solid grey;
 
+}
+.last_input{
+  margin-top: 10px;
+  margin-bottom: 100px;
+  width:90%;
+  font-size: 10px;
 }
 #form input:hover{
   border: none;
@@ -932,6 +940,9 @@ border-bottom: 1px solid grey;
   transition: background-color 0.3s ease;
   padding-bottom: 25px;
 }
+.sumbit_ebook{
+  margin-top: 100px;
+}
 
 /* Estilos al pasar el cursor por encima del botón */
 .sumbit:hover {
@@ -950,18 +961,21 @@ border-bottom: 1px solid grey;
   
 
 }
+.boton_mp:hover{
+  background-color: #307585;
+
+}
 .boton_mp p{
   margin: auto;
 }
+
 .boton_mp img{
   width: 40px;
   margin-top: 4px;
   margin-right: 10px;
 }
 
-.boton_mp:hover{
-  background-color: #47B9D3;
-}
+
 
 .boton_pp{
   background-color: #f0d561;
@@ -1065,6 +1079,92 @@ margin-top: 30px;
 
 }
 
+.centered-div{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  height: 300px;
+  background-color: #0c0c0e;
+  border: 5px solid #e8c00c;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
+.quit_centered{
+
+  position: absolute;
+  background-color: #c12a19;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 100px;
+  right: 5px;
+  top: 5px;
+}
+
+.quit_centered:hover{
+  background-color:#861e13 ;
+}
+
+.pago_basico_active{
+  display: flex ;
+  flex-direction: column;
+  
+}
+
+.pago_medio_active{
+  display: flex ;
+  flex-direction: column;
+}
+
+.pago_avanzado_active{
+  display: flex ;
+  flex-direction: column;
+}
+.quit_centered svg{
+  align-self: center;
+  margin-right: 100px;
+  color: white;
+}
+.centered-div h3{
+  margin-top: 20px;
+  color: white;
+}
+
+.centered-div h5{
+  padding: 0;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.p_centered{
+  padding: 0;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  margin-top: 10px;
+
+  
+}
+.sub{
+  width: 50px;
+  background-color: #f0d561;
+  color: transparent;
+  height: 3px;
+  margin:auto;
+  margin-top: 0;
+
+
+}
+.buttons_cenetered{
+  margin-top: 3px;
+}
 @media (min-width:720px){
   .fa-brands {
       margin-top: 0;
@@ -1208,6 +1308,9 @@ margin-top: 30px;
 
 .contenedor_form{
   max-width: 500px;
+}
+.last_input{
+  font-size: 13px;
 }
 
 .price_ebook h4{

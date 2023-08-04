@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jero</title>
+    <script src="https://kit.fontawesome.com/f6f72a1d5d.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link  rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+    <nav>
+        <img src="img/logo.png" alt="" class="logo" >
+        <button class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+    <section class="mobile">
+        <div class="div_mobile">
+        <a href="ebook.html" class="mobile_a">EBOOK DISEÑA TU RUTINA</a>
+        <a href="index.html#principal" class="mobile_a">inicio</a>
+        <a href="index.html#sobremi" class="mobile_a">sobre mí</a>
+        <a href="index.html#servicios" class="mobile_a">Servicios</a>
+        <a href="index.html#incluye" class="mobile_a">Suscripciones</a>
+    </div>
+    </section>
+
+    <section id="form">
+        <div class="contenedor_form cont_form_asesoria" data-aos-duration="2000"data-aos="fade-up">
+            <div class="form_title"> <h4>Formulario</h4>  </div>
+
+            <form class="inputs" action="https://formsubmit.co/valentinvalle41@gmail.com" method="POST">
+
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellido">
+        
+                <input class="last_input" type="email" id="email" name="Email" placeholder="mail">   
+
+                <input class="last_input" type="number" id="numero" name="Numero" placeholder="Tu numero celular">   
+
+                <input class="last_input" type="number" id="edad" name="Edad" placeholder="Edad">  
+                
+                <input class="last_input" type="number" id="peso" name="Peso" placeholder="peso">  
+
+                <input class="last_input" type="number" id="altura" name="altura" placeholder="Altura"> 
+
+                <input class="last_input" type="text" id="enfoar_en" name="enfoar_en" placeholder="Hay alguna parte especifica de tu cuerpo que te gustaría desarrollar mas?"> 
+
+                <input class="last_input" type="text" id="lesion" name="lesion" placeholder="Tenes o tuviste algún tipo de lesión? Especifica donde, cuando y que sensaciones físicas te dejo."> 
+
+                <input class="last_input" type="text" id="enfermedad" name="enfermedad" placeholder="Contas con algún tipo de enfermedad o patología? Cual"> 
+
+                <input class="last_input" type="number" id="dias_de_enrenamiento" name="dias_de_enrenamiento" placeholder="Cuantos dias a la semana queres entrenar?"> 
+
+                <label for="opciones">Cual es el objetivo a lograr con este plan?</label>
+                <select id="opciones" name="Objetivo" placeholder="Cual es el objetivo a lograr con este plan?">
+                    <option value="opcion1">bajar de peso/ quemar grasa.</option>
+                    <option value="opcion2">aumentar mi masa muscular.</option>
+                    <option value="opcion3">mejorar energía y vitalidad.</option>
+                </select>
+
+                <label for="opciones">Cual es tu nivel de actividad física actualmente?</label>
+                <select id="opciones" name="Objetivo" placeholder="Cual es el objetivo a lograr con este plan?">
+                    <option value="opcion1">Sedentario.</option>
+                    <option value="opcion2">Bajo: cada tanto hago actividad física (gym, correr, deporte etc)</option>
+                    <option value="opcion3">Alto: actividad física mas de 4 veces a la semana</option>
+                </select>
+
+                <label for="opciones">Cuantas horas tenes para cada sesión?</label>
+                <select id="opciones" name="Objetivo" placeholder="Cual es el objetivo a lograr con este plan?">
+                    <option value="opcion1">45 minutos</option>
+                    <option value="opcion2">1 hora</option>
+                    <option value="opcion3">1:15 horas</option>
+                    <option value="opcion4">1:30 horas</option>
+                </select>
+                <input class="sumbit" type="submit"> Enviar </input>
+
+                <input type="hidden" name="_next" value="https://valenchongo.github.io/JeroWebsite/index.html#principal">
+                <input type="hidden" name="_captcha" value="false">
+            </form>        
+        </div>
+    </section>
+
+    <footer>
+        <h3 class="sobremi_h3 h3foo"> MIS REDES</h3>
+        <div class="footer_img">
+            <a href="https://www.instagram.com/jeronimopandelo/?hl=es" target="_blank">
+        <img src="img/ig.png" alt="" class="instagram">
+    </a>
+    <a href="https://www.tiktok.com/@jeronimopandelofit" target="_blank">
+        <img src="img/tiktok.png" alt="" class="tiktok">
+    </a>
+    </div>
+    </footer>
+
+
+
+    <script src="funciones.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

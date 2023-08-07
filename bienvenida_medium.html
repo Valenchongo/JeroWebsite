@@ -25,15 +25,80 @@
         <a href="index.html#servicios" class="mobile_a">Servicios</a>
         <a href="index.html#incluye" class="mobile_a">Suscripciones</a>
     </div>
+    </section>
 
-    <div class="bienvenida">
-        <h3>¡Bienvenido al programa!</h3>
-        <p>Hola! Te doy la bienvenida y felicitaciones por comenzar. El primer paso para lograr un cambio en vos es tomar la decisión de empezar. Quiero que sepas que te voy a acompañar codo a codo en este proceso para que logres tu resultado, vamos a armar un plan 100% personalizado para vos y te voy a brindar toda la información que necesitas. La otra parte es que pongas de tu compromiso para lograr lo máximo posible en este proceso. Recorda que podes comprarte el mejor auto pero si no sabes manejar no sirve de nada! A fin y al cabo vos vas a decidir el resultado final. A continuación te voy a dejar algunas preguntas para que hagamos un plan a tu medida.</p>
+    <section id="form">
+        <div class="contenedor_form cont_form_asesoria" data-aos-duration="2000"data-aos="fade-up">
+            <div class="form_title"> <h4>Formulario</h4>  </div>
 
-        <a href="form_asesoria_medium.html" target="_blank" class=""> <button class="   button_form_as"><p>SIGUIENTE</p> </button> </a>
-    </div>
+            <form class="inputs" action="https://formsubmit.co/valentinvalle41@gmail.com" method="POST">
 
-    
+                <input class="last_input" type="text" id="nombre" name="nombre" placeholder="Nombre y apellido">
+        
+                <input class="last_input" type="email" id="email" name="Email" placeholder="mail">   
+
+                <input class="last_input" type="number" id="numero" name="Numero" placeholder="Tu numero celular">   
+
+                <input class="last_input" type="number" id="edad" name="Edad" placeholder="Edad">  
+                
+                <input class="last_input" type="number" id="peso" name="Peso" placeholder="peso">  
+
+                <input class="last_input" type="number" id="altura" name="altura" placeholder="Altura"> 
+
+                <input class="last_input" type="text" id="enfoar_en" name="enfoar_en" placeholder="Hay alguna parte de tu cuerpo que te gustaría desarrollar mas?"> 
+
+                <input class="last_input" type="text" id="lesion" name="lesion" placeholder="¿Experimentaste lesiones? Detalla ubicación, tiempo y sensaciones"> 
+
+                <input class="last_input" type="text" id="enfermedad" name="enfermedad" placeholder="Contas con algún tipo de enfermedad o patología? Cual"> 
+
+                <input class="last_input" type="number" id="dias_de_enrenamiento" name="dias_de_enrenamiento" placeholder="Cuantos dias a la semana queres entrenar?"> 
+
+                <input class="last_input" type="text" id="comidas_que_gustan" name="comidas_que_gustan" placeholder="¿Que comidas/ alimentos son los que mas te gustan?"> 
+
+                <input class="last_input" type="text" id="comidas_que_no_gustan" name="comidas_que_no_gustan" placeholder="¿Que comidas/ alimentos no te gustan?"> 
+
+                <input class="last_input" type="text" id="comidas_que_no_gustan" name="comidas_que_no_gustan" placeholder="Detalla tus comidas diarias: desayuno, almuerzo, merienda y cena. "> 
+                <label for="opciones">Cual es el objetivo a lograr con este plan?</label>
+                <select id="opciones" name="Objetivo" placeholder="Cual es el objetivo a lograr con este plan?">
+                    <option value="bajar_de_peso">bajar de peso/ quemar grasa.</option>
+                    <option value="aumentar_mi_masa">aumentar mi masa muscular.</option>
+                    <option value="mejorar_energía_y_vitalidad">mejorar energía y vitalidad.</option>
+                </select>
+
+                <label for="nivel_actividad">Cual es tu nivel de actividad física actualmente?</label>
+                <select id="opciones" name="nivel_actividad" placeholder="Cual es el objetivo a lograr con este plan?">
+                    <option value="Sedentario">Sedentario.</option>
+                    <option value="bajo">Bajo: cada tanto hago actividad física (gym, correr, deporte etc)</option>
+                    <option value="alto">Alto: actividad física mas de 4 veces a la semana</option>
+                </select>
+
+                <label for="opciones">Cuantas horas tenes para cada sesión?</label>
+                <select id="opciones" name="horas_por_sesion" placeholder="Cual es el objetivo a lograr con este plan?">
+                    <option value="45min">45 minutos</option>
+                    <option value="1hs">1 hora</option>
+                    <option value="1:15_hs">1:15 horas</option>
+                    <option value="1:30_hs">1:30 horas</option>
+                </select>
+
+                <label for="opciones">Tenes alguna variación alimenticia?</label>
+                <select id="opciones" name="alimentacion" placeholder="Cual es el objetivo a lograr con este plan?">
+                    <option value="Vegano">Vegano</option>
+                    <option value="Vegetariano">Vegetariano</option>
+                    <option value="Celiaco">Celiaco</option>
+                    <option value="Diabetico">Diabetico</option>
+                    <option value="Nada">Nada</option>
+                </select>
+                
+                <input class="sumbit" type="submit"> Enviar </input>
+
+
+
+                <input type="hidden" name="_next" value="https://valenchongo.github.io/JeroWebsite/index.html#principal">
+                <input type="hidden" name="_captcha" value="false">
+            </form>        
+        </div>
+    </section>
+
     <footer>
         <h3 class="sobremi_h3 h3foo"> MIS REDES</h3>
         <div class="footer_img">
@@ -45,6 +110,7 @@
     </a>
     </div>
     </footer>
+
     <script src="funciones.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

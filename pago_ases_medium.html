@@ -25,15 +25,43 @@
         <a href="index.html#servicios" class="mobile_a">Servicios</a>
         <a href="index.html#incluye" class="mobile_a">Suscripciones</a>
     </div>
+    </section>
 
-    <div class="bienvenida">
-        <h3>¡Bienvenido al programa!</h3>
-        <p>Hola! Te doy la bienvenida y felicitaciones por comenzar. El primer paso para lograr un cambio en vos es tomar la decisión de empezar. Quiero que sepas que te voy a acompañar codo a codo en este proceso para que logres tu resultado, vamos a armar un plan 100% personalizado para vos y te voy a brindar toda la información que necesitas. La otra parte es que pongas de tu compromiso para lograr lo máximo posible en este proceso. Recorda que podes comprarte el mejor auto pero si no sabes manejar no sirve de nada! A fin y al cabo vos vas a decidir el resultado final. A continuación te voy a dejar algunas preguntas para que hagamos un plan a tu medida.</p>
+    <div class="pago_medio centered-div">
 
-        <a href="form_asesoria_medium.html" target="_blank" class=""> <button class="   button_form_as"><p>SIGUIENTE</p> </button> </a>
+        <h3>¿Como queres pagar?</h3>
+        <h5>Atencion!</h5>
+        <div class="sub">.</div>
+        <p class="p_centered">si pagas con paypal mandame el comprobante en un mensaje directo</p>
+        <div class="buttons_cenetered"> 
+            <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848959c33a0189699016ba04b4" target="_blank" class=""> <button class="asesoria asesoriasubs boton_mp"><p>Mercado Pago</p> <img src="img/mp_logo.png" alt=""></button> </a>
+
+            <div id="paypal-button-container-P-2B687496KB8273442MTDTFOY"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AUjll1ydZmSFkrJsbxMzXarRa6dYGiY09Nh_wbFGJQG4klcL9bjdZU7xaZMa0ZtWuE-VjFJxYTZBsYnT&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-2B687496KB8273442MTDTFOY'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-2B687496KB8273442MTDTFOY'); // Renders the PayPal button
+</script>
+        </div>
+       
     </div>
-
     
+
     <footer>
         <h3 class="sobremi_h3 h3foo"> MIS REDES</h3>
         <div class="footer_img">
@@ -45,6 +73,9 @@
     </a>
     </div>
     </footer>
+
+
+
     <script src="funciones.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

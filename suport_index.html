@@ -59,7 +59,7 @@
         <h3 class="h3_plan">SELECCIONA EL PLAN QUE QUERES</h3>
         <div class="contenedor_de_precios">
 
-        <div class="cart_price cart_basic" data-aos="fade-up" data-aos-duration="2000">
+        <div class="cart_price cart_basic">
             <h3 class="h3_cart h3_primero_Cart h3_bas">PLAN DE ENTRENAMIENTO <br> <b>BASICO</b></h3>
             <h2 class="price_usd">U$10<br>arg $4800</h2>
             <div class="list_cart">
@@ -80,10 +80,10 @@
                  con fotos y pesajes.</p>
 
             </div>
-             <div class="div_button_plan ">  <a href="pago_ases_basic.html"> <button class="button_plan aos-init aos-animate boton_basico"> COMENZAR AHORA </button></a> </div>
+             <div class="div_button_plan ">  <a > <button class="button_plan aos-init aos-animate boton_basico"> COMENZAR AHORA </button></a> </div>
         </div>
 
-        <div class="cart_price cart_medio" data-aos="fade-up" data-aos-duration="2000">
+        <div class="cart_price cart_medio">
             <h3 class="h3_cart h3_primero_Cart h3_med">MEDIO<br> <b>PLAN ENTRENAMIENTO + ALIMENTACION</b></h3>
             <h2 class="price_usd">U$15 - arg $7.200</h2>
             <div class="list_cart_med">
@@ -116,10 +116,10 @@
                  con fotos y pesajes.</p>
 
             </div>
-             <div class="div_button_plan button_mid" >  <a href="pago_ases_medium.html"> <button class="button_plan aos-init aos-animate boton_medio"> COMENZAR AHORA </button></a> </div>
+             <div class="div_button_plan button_mid" >  <a> <button class="button_plan aos-init aos-animate boton_medio"> COMENZAR AHORA </button></a> </div>
         </div>
 
-        <div class="cart_price cart_avan" data-aos="fade-up" data-aos-duration="2000">
+        <div class="cart_price cart_avan">
             <h3 class="h3_cart h3_primero_Cart h3_med">AVANZADO <br> <b>PLAN DE ENTRENAMIENTO + ALIMENTACION + PLANIFICACION MESOCICLO + EBOOK
                 REGALO</b></h3>
             <h2 class="price_usd">u$22 – arg $10.600</h2>
@@ -162,20 +162,136 @@
                  con fotos y pesajes.</p>
 
             </div>
-             <div class="div_button_plan button_avan" >  <a href="pago_ases_avan.html" > <button class="button_plan aos-init aos-animate boton_avanzado"> COMENZAR AHORA </button></a> </div>
+             <div class="div_button_plan button_avan" >  <a > <button class="button_plan aos-init aos-animate boton_avanzado"> COMENZAR AHORA </button></a> </div>
         </div>
 
         </div>
     </div>
     
-    
+    <div class="pago_basico centered-div">
+        <button class="quit_centered quit_basico">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-back" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1"></path>
+            </svg>
+        </button>
+        <h3>¿Como queres pagar?</h3>
+
+        <h5>Atencion!</h5>
+        <div class="sub">.</div>
+        <p class="p_centered">si pagas con paypal mandame el comprobante en un mensaje directo</p>
+        <div class="buttons_cenetered"> 
+            <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c938084896169850189698f5da001fa" target="_blank" class=""> <button class="asesoria asesoriasubs boton_mp"><p>Mercado Pago</p> <img src="img/mp_logo.png" alt=""></button> </a>
+
+            <div id="paypal-button-container-P-9G3067148S1424328MTDQWAY"></div>
+            <script src="https://www.paypal.com/sdk/js?client-id=AUjll1ydZmSFkrJsbxMzXarRa6dYGiY09Nh_wbFGJQG4klcL9bjdZU7xaZMa0ZtWuE-VjFJxYTZBsYnT&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+            <script>
+              paypal.Buttons({
+                  style: {
+                      shape: 'pill',
+                      color: 'gold',
+                      layout: 'vertical',
+                      label: 'subscribe'
+                  },
+                  createSubscription: function(data, actions) {
+                    return actions.subscription.create({
+                      /* Creates the subscription */
+                      plan_id: 'P-9G3067148S1424328MTDQWAY'
+                    });
+                  },
+                  onApprove: function(data, actions) {
+                    alert(data.subscriptionID); // You can add optional success message for the subscriber here
+                  }
+              }).render('#paypal-button-container-P-9G3067148S1424328MTDQWAY'); // Renders the PayPal button
+            </script>
+        </div>
+       
+    </div>
 
 
-    
+    <div class="pago_medio centered-div">
+        <button class="quit_centered quit_medio">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-back" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1"></path>
+            </svg>
+        </button>
+        <h3>¿Como queres pagar?</h3>
+        <h5>Atencion!</h5>
+        <div class="sub">.</div>
+        <p class="p_centered">si pagas con paypal mandame el comprobante en un mensaje directo</p>
+        <div class="buttons_cenetered"> 
+            <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848959c33a0189699016ba04b4" target="_blank" class=""> <button class="asesoria asesoriasubs boton_mp"><p>Mercado Pago</p> <img src="img/mp_logo.png" alt=""></button> </a>
+
+            <div id="paypal-button-container-P-2B687496KB8273442MTDTFOY"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AUjll1ydZmSFkrJsbxMzXarRa6dYGiY09Nh_wbFGJQG4klcL9bjdZU7xaZMa0ZtWuE-VjFJxYTZBsYnT&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-2B687496KB8273442MTDTFOY'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-2B687496KB8273442MTDTFOY'); // Renders the PayPal button
+</script>
+        </div>
+       
+    </div>
+
+
+    <div class="pago_avanzado centered-div">
+        <button class="quit_centered quit_avanzado">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-back" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1"></path>
+            </svg>
+        </button>
+        <h3>¿Como queres pagar?</h3>
+        <h5>Atencion!</h5>
+        <div class="sub">.</div>
+        <p class="p_centered">si pagas con paypal mandame el comprobante en un mensaje directo</p>
+        <div class="buttons_cenetered"> 
+            <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848968cba701896990cde10020" target="_blank" class=""> <button class="asesoria asesoriasubs boton_mp"><p>Mercado Pago</p> <img src="img/mp_logo.png" alt=""></button> </a>
+
+            <div id="paypal-button-container-P-7UN59839907368220MTDTHLA"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AUjll1ydZmSFkrJsbxMzXarRa6dYGiY09Nh_wbFGJQG4klcL9bjdZU7xaZMa0ZtWuE-VjFJxYTZBsYnT&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-7UN59839907368220MTDTHLA'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-7UN59839907368220MTDTHLA'); // Renders the PayPal button
+</script>
+
+        </div>
+       
+    </div>
     </section>
 
     <section id="resultados">
-        <div class="contenedor-modificaciones" data-aos="fade-right" data-aos-duration="2000">
+        <div class="contenedor-modificaciones">
             <h4 class="h4_price">¿Qué resultados puedo lograr con el asesoramiento?</h4>
             <div class="sub_precio"></div>
 
@@ -222,7 +338,7 @@
         
 
     <div class="contenedor_de_precios">
-        <div class="cart_price cart_basic" data-aos="fade-up" data-aos-duration="2000">
+        <div class="cart_price cart_basic">
             <h3 class="h3_cart h3_primero_Cart h3_bas">PLAN DE ENTRENAMIENTO <br> <b>BASICO</b></h3>
             <h2 class="price_usd">U$10<br>arg $4800</h2>
             <div class="list_cart">
@@ -243,10 +359,10 @@
                  con fotos y pesajes.</p>
 
             </div>
-             <div class="div_button_plan ">  <a href="pago_ases_basic.html"> <button class="button_plan aos-init aos-animate boton_basico"> COMENZAR AHORA </button></a> </div>
+             <div class="div_button_plan ">  <a > <button class="button_plan aos-init aos-animate boton_basico"> COMENZAR AHORA </button></a> </div>
         </div>
 
-        <div class="cart_price cart_medio" data-aos="fade-up" data-aos-duration="2000">
+        <div class="cart_price cart_medio">
             <h3 class="h3_cart h3_primero_Cart h3_med">MEDIO<br> <b>PLAN ENTRENAMIENTO + ALIMENTACION</b></h3>
             <h2 class="price_usd">U$15 - arg $7.200</h2>
             <div class="list_cart_med">
@@ -279,10 +395,10 @@
                  con fotos y pesajes.</p>
 
             </div>
-             <div class="div_button_plan button_mid" >  <a href="pago_ases_medium.html"> <button class="button_plan aos-init aos-animate boton_medio"> COMENZAR AHORA </button></a> </div>
+             <div class="div_button_plan button_mid" >  <a> <button class="button_plan aos-init aos-animate boton_medio"> COMENZAR AHORA </button></a> </div>
         </div>
 
-        <div class="cart_price cart_avan" data-aos="fade-up" data-aos-duration="2000" >
+        <div class="cart_price cart_avan">
             <h3 class="h3_cart h3_primero_Cart h3_med">AVANZADO <br> <b>PLAN DE ENTRENAMIENTO + ALIMENTACION + PLANIFICACION MESOCICLO + EBOOK
                 REGALO</b></h3>
             <h2 class="price_usd">u$22 – arg $10.600</h2>
@@ -325,12 +441,12 @@
                  con fotos y pesajes.</p>
 
             </div>
-             <div class="div_button_plan button_avan" >  <a href="pago_ases_avan.html" > <button class="button_plan aos-init aos-animate boton_avanzado"> COMENZAR AHORA </button></a> </div>
+             <div class="div_button_plan button_avan" >  <a > <button class="button_plan aos-init aos-animate boton_avanzado"> COMENZAR AHORA </button></a> </div>
         </div>
 
     </div>
     </section>
-    <div class="contenedor_para_vos" data-aos="fade-right" data-aos-duration="2000">
+    <div class="contenedor_para_vos">
         <h4 class="h4_price">¿Cómo SABER SI ESTO ES PARA VOS?</h4>
         <div class="sub_precio"></div>
 
@@ -438,7 +554,7 @@ y no sabes como bajarlos (es mas fácil de lo que pensas). </p>
         <h3 class="h3_plan">SELECCIONA EL PLAN QUE QUERES</h3>
 
     <div class="contenedor_de_precios">
-        <div class="cart_price cart_basic" data-aos="fade-up" data-aos-duration="2000">
+        <div class="cart_price cart_basic">
             <h3 class="h3_cart h3_primero_Cart h3_bas">PLAN DE ENTRENAMIENTO <br> <b>BASICO</b></h3>
             <h2 class="price_usd">U$10<br>arg $4800</h2>
             <div class="list_cart">
@@ -459,11 +575,11 @@ y no sabes como bajarlos (es mas fácil de lo que pensas). </p>
                  con fotos y pesajes.</p>
 
             </div>
-             <div class="div_button_plan ">  <a href="pago_ases_basic.html"> <button class="button_plan aos-init aos-animate boton_basico"> COMENZAR AHORA </button></a> </div>
+             <div class="div_button_plan ">  <a > <button class="button_plan aos-init aos-animate boton_basico"> COMENZAR AHORA </button></a> </div>
         </div>
 
 
-        <div class="cart_price cart_medio" data-aos="fade-up" data-aos-duration="2000">
+        <div class="cart_price cart_medio">
             <h3 class="h3_cart h3_primero_Cart h3_med">MEDIO<br> <b>PLAN ENTRENAMIENTO + ALIMENTACION</b></h3>
             <h2 class="price_usd">U$15 - arg $7.200</h2>
             <div class="list_cart_med">
@@ -496,10 +612,10 @@ y no sabes como bajarlos (es mas fácil de lo que pensas). </p>
                  con fotos y pesajes.</p>
 
             </div>
-             <div class="div_button_plan button_mid" >  <a href="pago_ases_medium.html"> <button class="button_plan aos-init aos-animate boton_medio">COMENZAR AHORA </button></a> </div>
+             <div class="div_button_plan button_mid" >  <a > <button class="button_plan aos-init aos-animate boton_medio">COMENZAR AHORA </button></a> </div>
         </div>
 
-        <div class="cart_price cart_avan" data-aos="fade-up" data-aos-duration="2000">
+        <div class="cart_price cart_avan">
             <h3 class="h3_cart h3_primero_Cart h3_med">AVANZADO <br> <b>PLAN DE ENTRENAMIENTO + ALIMENTACION + PLANIFICACION MESOCICLO + EBOOK
                 REGALO</b></h3>
             <h2 class="price_usd">u$22 – arg $10.600</h2>
@@ -542,7 +658,7 @@ y no sabes como bajarlos (es mas fácil de lo que pensas). </p>
                  con fotos y pesajes.</p>
 
             </div>
-             <div class="div_button_plan button_avan" >  <a href="pago_ases_avan.html"> <button class="button_plan aos-init aos-animate boton_avanzado">COMENZAR AHORA</button></a> </div>
+             <div class="div_button_plan button_avan" >  <a> <button class="button_plan aos-init aos-animate boton_avanzado">COMENZAR AHORA</button></a> </div>
         </div>
     </div>
     </section>
@@ -557,7 +673,6 @@ y no sabes como bajarlos (es mas fácil de lo que pensas). </p>
        
     </section>
     <a href="https://api.whatsapp.com/send?phone=541157828227" class="wpp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
-    
     
 
     <footer>

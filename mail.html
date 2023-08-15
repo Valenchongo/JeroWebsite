@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f6f72a1d5d.js" crossorigin="anonymous"></script>   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+     <header>
+        <img src="img/logo.png" alt="">
+        <button class="hamburger-button" onclick="toggleMenu()">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+    </header>
+    <nav class="navbar">
+        <div class="contenedor_ul">
+            <a href="index.html#plantillas">Plantillas</a>
+            <a href="index.html#ofrece">¿Que ofrezco?</a>
+            <a href="index.html#clientes">Clientes</a>    
+            <a href="index.html#sect_precios">Precios</a>  
+        </div>
+    </nav>
+
+<div class="formulario">
+    <form class="inputs" action="https://formsubmit.co/valentinvalle41@gmail.com" method="POST">
+        <input class="last_input"  type="text" id="nombre" name="nombre" placeholder="Nombre y apellido">
+
+        <input class="last_input" type="email" id="email" name="email" placeholder="mail">
+        
+        <input class="last_input" type="email" id="email" name="email" placeholder="tu duda">
+        
+        <input class="sumbit" type="submit">  </input>
+
+        <input type="hidden" name="_next" value="https://valenchongo.github.io/JeroWebsite/index.html#principal">
+        <input type="hidden" name="_captcha" value="false">
+    </form>        
+</div>
+
+    <footer>
+        <div class="logo_footer">        
+            <img src="img/logo.png" alt="">
+            <h3>Valentin Valle</h3>
+            <div class="sub_footer" ></div>
+        </div>
+
+        <div class="social_media">
+            <a href="https://www.instagram.com/valle.valen/" target="_blank"><img src="White_One/img/instagram.png" alt="" class="instagram social"></a>
+            <a href="mail.html" target="_blank"><img src="img/mail.png" alt="" class="tiktok social"></a>
+        </div>
+
+      </footer>
+      
+
+      <script src="code.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+          AOS.init({duration:1000});
+        </script>
+</body>
+</html>

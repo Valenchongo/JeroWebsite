@@ -4,577 +4,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pandelo fitness | Entrenador online</title>
-    <script src="https://kit.fontawesome.com/f6f72a1d5d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f6f72a1d5d.js" crossorigin="anonymous"></script>   
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
-   
-    <link  rel="shortcut icon" href="img/logo.png">
 </head>
 <body>
-    <nav>
-        <img src="img/logo.png" alt="" class="logo" >
-        <button class="hamburger">
-            <i class="fa-solid fa-bars"></i>
-        </button>
+     <header>
+        <img src="img/logo.png" alt="">
+        <button class="hamburger-button" onclick="toggleMenu()">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+    </header>
+    <nav class="navbar">
+        <div class="contenedor_ul">
+            <a href="#plantillas">Plantillas</a>
+            <a href="#ofrece">¿Que ofrezco?</a>
+            <a href="#clientes">Clientes</a>    
+            <a href="#sect_precios">Precios</a>  
+        </div>
     </nav>
-    <section class="mobile">
-        <div class="div_mobile">
-        <a href="ebook.html" class="mobile_a">EBOOK DISEÑA TU RUTINA</a>
-        <a href="index.html#principal" class="mobile_a">inicio</a>        
-        <a href="index.html#sobremi" class="mobile_a">sobre mí</a>
-        <a href="index.html#servicios" class="mobile_a">Servicios</a>
-        <a href="index.html#incluye" class="mobile_a">Suscripciones</a>
-    </div>
-    </section>
 
     <section id="principal">
+        <div class="logo_css">
+            <div class="v-shape" data-aos="fade-right" >
+                <div class="left-line"></div>
+                <div class="right-line"></div>
+            </div>
+            <div class="v-shape v" data-aos="fade-left" >
+                <div class="left-linev"></div>
+                <div class="right-linev"></div>
+            </div>
+        </div>
+        <h1> Valentin Valle</h1>
+        <h3> Desarrollador Web</h3>
+    </section>
+
+    <section id="plantillas" >
+        <div data-aos="fade-up" >        
+            <h3> ¿Como funciona? </h3>
+            <div  class="sub"></div>
+        </div>
+
+        <div  data-aos="fade-up" >
+            <p >
+                Para crear su página web, solo necesito que me proporcione los textos deseados, imágenes y testimonios de sus clientes. Con esa información, trabajaré en el diseño y desarrollo de su página, asegurándome de que sea atractiva y fácil de navegar. Realizaré pruebas exhaustivas antes de entregarle el sitio web finalizado.
+            </p>
+    
+            <p >Tenga en cuenta que puedo personalizar su página web agregando o eliminando secciones según sus preferencias. Adaptaré el diseño para que refleje su negocio de manera precisa y brinde la información relevante que desee destacar.
+            </p>
+        </div>
+
+        <div data-aos="fade-up">
+            <h3 class="h3_plantillas"> Plantillas </h3>
+            <div class="sub" ></div>
+        </div>
+
+        <div class="container_plantillas" >
+            <div>
+                <div data-aos="fade-right" class="title_web" >
+                    <div class="sub_h4"></div>
+                    <h5 class="title_plantilla"> LIGHT</h5>
+                
+                </div>
+                <a href="White_One/index.html"><img class="img_cliente" src="img/white_one.png" alt=""> </a>
+            </div>
 
             <div>
-                <h4 class="primer_h4"> ¿CANSADO DE VER EN EL ESPEJO UN CUERPO QUE NO TE GUSTA?</h4>
-                <h4 class="h4_amarillo"> LOGRA EL FÍSICO QUE
-                    QUERES SIN PRIVARTE DE NADA</h4>
+                <div data-aos="fade-right" class="title_web">
+                    <div class="sub_h4"></div>
+                    <h5 class="title_plantilla"> DARK</h5>
+                
+                </div>
+                <a href="Red_One/index.html"><img class="img_cliente" src="img/red_one.png" alt=""> </a>
             </div>
-           
-            <div class="substitulo"> <h5>INCLUSO SI NO TENES CONSTANCIA EN TU ALIMENTACION Y
-                ENTRENAMIENTO TE PUEDO AYUDAR A QUE CAMBIES ESTOS HABITOS PARA SIEMPRE.</h5></div>
-            <a href="ebook.html"> <button class="button_ebook aos-init aos-animate"> COMENZAR AHORA </button></a>
+        </div>
+    </section>
+
+    <section id="ofrece">
+        <h3>¿Que ofrezco?</h3>
+        <div class="sub"></div>
+
+        <div data-aos="fade-right" class="container_offer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                <path d="M21 21l-6 -6"></path>
+            </svg>
+            <p>Una web personalizada segun tus gustos y necesidades</p>
+        </div>
+
+        <div data-aos="fade-right" class="container_offer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14z"></path>
+                <path d="M11 4h2"></path>
+                <path d="M12 17v.01"></path>
+            </svg>
+            <p>Una web con <b>responsive design</b> apta para telefonos mobiles y computadoras</p>
+        </div>
+
+        <div data-aos="fade-right" class="container_offer ultima_offer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt" width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11"></path>
+            </svg>
+            <p>Una entrega super rapida, en menos de 2 semanas!</p>
+        </div>
+    </section>
+
+    <section id="clientes" >
+        <div  data-aos="fade-up">
+            <h3> webs de mis clientes</h3>
+            <div class="sub"></div>
+        </div>
+
+        <div data-aos="fade-right" class="title_web">
+            <div class="sub_h4"></div>
+            <h4>pandelofitness</h4>
             
-    </section>
-    <div class="description">
-        <h5>¿Estas inconforme con tu cuerpo y tu salud y esto te genera
-            incomodidad? Entiendo por lo que estas pasando. Intentas hacer un cambio pero
-            sentis que no tenes la motivación suficiente para avanzar y careces de autocontrol
-            para mantenerte constante... eso se terminó, te voy a acompañar codo a codo en este
-            proceso para que alcances el físico que tanto buscas.</h5>
-    </div>
+        </div>
+        <a href="https://pandelofitness.github.io/Pandelofitness/index.html#principal"><img class="img_cliente" src="img/jero.png" alt=""> </a>
+   </section>
 
-    <section id="para_quien">
-        <h3 class="h3_para_que">¿PARA QUIEN ES ESTE PLAN?</h3>
-        <div class="barr barr_plan"></div>
-        <h5 class="h5_para_que">Hombres y mujeres desde 18 a 50 años que busquen
-            aumentar su masa muscular, tonificar, quemar grasa y bajar de peso.</h5>
+
+
+    <section id="sect_precios" >
+        <h3 class="h3_precios"> Precios </h3>
+        <div class="sub"></div>
+        <div class="container_precios_info">
+            <div data-aos="zoom-in" class="precio">
+
+                <h1 class="h1_precio h1_precio_primero">Tene tu web por</h1> 
+                <h2>$59.999</h2>
+                <a href=""> <button class="button_precio"> Quiero la web </button> </a>
+            </div>
         
-        <div>
-        <h3 class="h3_plan">SELECCIONA EL PLAN QUE QUERES</h3>
-        <div class="contenedor_de_precios">
+            <div data-aos="zoom-in" class="contenedor-modificaciones">
+                <h4 class="h4_price">Modificaciones</h4>
+                <div class="sub_precio"></div>
 
-        <div class="cart_price cart_basic" data-aos="fade-up" >
-            <h3 class="h3_cart h3_primero_Cart h3_bas">PLAN DE ENTRENAMIENTO <br> <b>BASICO</b></h3>
-            <h2 class="price_usd">U$10<br>arg $4800</h2>
-            <div class="list_cart">
-                <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Rutina de entrenamiento</p>
+                <p class="p_price"> Una vez que tengas tu sitio web, si deseas realizar modificaciones en textos o imágenes, se aplicará un costo de $4.000 el cambio.</p>
 
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Seguimiento vía WhatsApp.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Medicion del progreso: semanal
-                 con fotos y pesajes.</p>
+                <p class="p_price">En caso de que desees agregar una nueva sección o realizar cambios más significativos en tu sitio web, se aplicará un costo de $30.000 por cada modificación.</p>
 
             </div>
-             <div class="div_button_plan ">  <a href="pago_ases_basic.html"> <button class="button_plan aos-init aos-animate boton_basico"> COMENZAR AHORA </button></a> </div>
         </div>
-
-        <div class="cart_price cart_medio" data-aos="fade-up" >
-            <h3 class="h3_cart h3_primero_Cart h3_med">MEDIO<br> <b>PLAN ENTRENAMIENTO + ALIMENTACION</b></h3>
-            <h2 class="price_usd">U$15 - arg $7.200</h2>
-            <div class="list_cart_med">
-                <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Rutina de entrenamiento</p>
-                 
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Dieta con varias opciones en cada comida.
-                 Lista de compras.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Recetas fit riquísimas.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Seguimiento vía WhatsApp.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Medicion del progreso: semanal
-                 con fotos y pesajes.</p>
-
-            </div>
-             <div class="div_button_plan button_mid" >  <a href="pago_ases_medium.html"> <button class="button_plan aos-init aos-animate boton_medio"> COMENZAR AHORA </button></a> </div>
-        </div>
-
-        <div class="cart_price cart_avan" data-aos="fade-up" >
-            <h3 class="h3_cart h3_primero_Cart h3_med">AVANZADO <br> <b>PLAN DE ENTRENAMIENTO + ALIMENTACION + PLANIFICACION MESOCICLO + EBOOK
-                REGALO</b></h3>
-            <h2 class="price_usd">u$22 – arg $10.600</h2>
-            <div class="list_cart_avan">
-                <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Rutina de entrenamiento</p>
-                 
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Excel con planificación del mesociclo.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> eBook “diseña tu rutina”.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Dieta con varias opciones en cada comida.
-                 Lista de compras.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Recetas fit riquísimas.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Seguimiento vía WhatsApp.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Medicion del progreso: semanal
-                 con fotos y pesajes.</p>
-
-            </div>
-             <div class="div_button_plan button_avan" >  <a href="pago_ases_avan.html" > <button class="button_plan aos-init aos-animate boton_avanzado"> COMENZAR AHORA </button></a> </div>
-        </div>
-
-        </div>
-    </div>
-    
-    
-
-
-    
     </section>
 
-    <section id="resultados">
-        <div class="contenedor-modificaciones" data-aos="fade-right" >
-            <h4 class="h4_price">¿Qué resultados puedo lograr con el asesoramiento?</h4>
-            <div class="sub_precio"></div>
-
-            <p class="p_price">asesoramiento? En un mes podes bajar hasta 3kg (bajar de peso)</p>
-
-            <p class="p_price">En 1 mes podes aumentar hasta 2kg de masa muscular magros.
-                </p>
+    <section id="importante" >
+            <div data-aos="fade-right">
+                <h3>¿Por que es importante tener un sitio web?</h3>
+                <div class="sub_importante"></div>
+            </div>
             
-            <p class="p_price">Vas a aprender a comer rico y saludable haciendo una dieta que te guste y creando un habito que vas a mantener por siempre.</p>
-
-            <p class="p_price">Vas a cambiar por comlpeto tu estilo de
-                vida. Te voy a enseñar a dejar de ver el fitness como algo complicado y difícil a ser algo imprescindible en tu vida y que te va a impulsar a mejorar en todas las demás áreas.</p>
-
-            <p class="p_price">Vas a aprender a cocinar recetas fit riquísimas, muy fáciles y rápidas de hacer.</p>
-
-        </div>
+            <p>tener un sitio web para un emprendimiento o negocio es esencial para aprovechar al máximo el potencial en línea, llegar a un público más amplio, fortalecer la imagen de marca y establecer relaciones sólidas con los clientes. Es una inversión valiosa que puede impulsar el crecimiento y el éxito a largo plazo.</p>
+            
+            <a href=""> <button class="button_precio"> CONTACTAME </button> </a>
     </section>
-    
-    <section id="sobremi" data-aos="fade-up" >
-        <h3 class="sobremi_h3">SOBRE MÍ</h3>
-        <div class="barr"></div>
-        <h2 class = "sobremi_h2">¿Quién soy?</h2>
-        <p  data-aos="fade-up"  >Mi nombre es Jerónimo, tengo 27 años. Soy entrenador personal y preparador físico pero sobre todo un apasionado del entrenamiento y actualmente instructor de musculación en un gimnasio de Buenos Aires.</p> <br>
-        
-        <img  src="img/cambio.png" alt="" class =" cambio" data-aos="fade-up"  >
-
-        <p  data-aos="fade-up"  >Toda la vida fui muy flaco y de adolescente me he sentido acomplejado por esto… por lo que desde mis 20 años decidí cambiar no solo mi físico sino también lograr a través de ello una transformación personal.</p> <br>
-
-        <img  src="img/cambio2.png" alt="" class =" cambio" data-aos="fade-up"  >
-
-        <p  data-aos="fade-up"  >Me di cuenta que cuanto más entrenaba mejor me sentía conmigo mismo, más cambiaba mi mentalidad y conforme a esto aumentaba la seguridad en mi mismo así que decidí ayudar a otros a hacer este cambio en su vida. </p> <br>
-
-        <img  src="img/cambio3.png" alt="" class =" cambio" data-aos="fade-up"  >
-
-        <p  data-aos="fade-up"  >Estoy agradecido de saber que he ayudado a decenas de personas a lograr el cuerpo que buscan y quiero ayudarte a vos también! </p> <br>
-
-        
-        <a href="index.html#incluye"> <button class="asesoria"  data-aos="fade-up"  > quiero una asesoría </button> </a>
-    </section>
-
-    <section id="precios">
-        <h3 class="h3_plan">SELECCIONA EL PLAN QUE QUERES</h3>
-
-        
-
-    <div class="contenedor_de_precios">
-        <div class="cart_price cart_basic" data-aos="fade-up" >
-            <h3 class="h3_cart h3_primero_Cart h3_bas">PLAN DE ENTRENAMIENTO <br> <b>BASICO</b></h3>
-            <h2 class="price_usd">U$10<br>arg $4800</h2>
-            <div class="list_cart">
-                <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Rutina de entrenamiento</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Seguimiento vía WhatsApp.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Medicion del progreso: semanal
-                 con fotos y pesajes.</p>
-
-            </div>
-             <div class="div_button_plan ">  <a href="pago_ases_basic.html"> <button class="button_plan aos-init aos-animate boton_basico"> COMENZAR AHORA </button></a> </div>
-        </div>
-
-        <div class="cart_price cart_medio" data-aos="fade-up" >
-            <h3 class="h3_cart h3_primero_Cart h3_med">MEDIO<br> <b>PLAN ENTRENAMIENTO + ALIMENTACION</b></h3>
-            <h2 class="price_usd">U$15 - arg $7.200</h2>
-            <div class="list_cart_med">
-                <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Rutina de entrenamiento</p>
-                 
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Dieta con varias opciones en cada comida.
-                 Lista de compras.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Recetas fit riquísimas.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Seguimiento vía WhatsApp.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Medicion del progreso: semanal
-                 con fotos y pesajes.</p>
-
-            </div>
-             <div class="div_button_plan button_mid" >  <a href="pago_ases_medium.html"> <button class="button_plan aos-init aos-animate boton_medio"> COMENZAR AHORA </button></a> </div>
-        </div>
-
-        <div class="cart_price cart_avan" data-aos="fade-up"  >
-            <h3 class="h3_cart h3_primero_Cart h3_med">AVANZADO <br> <b>PLAN DE ENTRENAMIENTO + ALIMENTACION + PLANIFICACION MESOCICLO + EBOOK
-                REGALO</b></h3>
-            <h2 class="price_usd">u$22 – arg $10.600</h2>
-            <div class="list_cart_avan">
-                <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Rutina de entrenamiento</p>
-                 
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Excel con planificación del mesociclo.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> eBook “diseña tu rutina”.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Dieta con varias opciones en cada comida.
-                 Lista de compras.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Recetas fit riquísimas.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Seguimiento vía WhatsApp.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Medicion del progreso: semanal
-                 con fotos y pesajes.</p>
-
-            </div>
-             <div class="div_button_plan button_avan" >  <a href="pago_ases_avan.html" > <button class="button_plan aos-init aos-animate boton_avanzado"> COMENZAR AHORA </button></a> </div>
-        </div>
-
-    </div>
-    </section>
-    <div class="contenedor_para_vos" data-aos="fade-right" >
-        <h4 class="h4_price">¿Cómo SABER SI ESTO ES PARA VOS?</h4>
-        <div class="sub_precio"></div>
-
-        <p class="p_price p_para_vos"><i class="fa-solid fa-circle-check"></i> Si cada vez que te miras al espejo pensas
-            que no te gusta el cuerpo en el que estas.</p>
-
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si probaste muchas dietas diferentes y
-            con ninguna lograste tu objetivo fisico.
-            </p>
-        
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si no te gusta la forma de tu abdomen,
-            piernas, brazos u otra parte del cuerpo.</p>
-
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si buscas lograr un buen resultado
-            comiendo cosas ricas, aca vas a poder hacerlo</p>
-
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si necesitas motivación para
-            entrenar. </p>
-        
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si no sos constante con tu alimentación.</p>
-
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si sentis que el profe del
-                gimnasio no te ayuda pero tampoco podes pagar un entrenador personal. </p>
-
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si te
-            sentis muy flaco y te da vergüenza mostrar tu cuerpo. </p>
-
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si tenes algunos kilos de mas
-y no sabes como bajarlos (es mas fácil de lo que pensas). </p>
-
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si no sabes como entrenar </p>
-
-        <p class="p_price"><i class="fa-solid fa-circle-check"></i> Si estas inseguro o insegura con tu cuerpo. No solo vamos a mejorar tu fisico sino
-            que vas a aprender a amar tu cuerpo.</p>
-    </div>
-    
-    <section id="qa">
-        
-        <div class="preguntas_title">
-        <h3 class="sobremi_h3 h3_preguntas" data-aos="fade-up"  > PREGUNTAS FRECUENTES</h3>
-        <div class="barr barr_qa" data-aos="fade-up"  ></div>
-        </div>
-        <div class="container_preguntas">
-            <div class="qa" data-aos="fade-up"  >
-                <div class="contenedor_pregunta">
-                    <div class="pregunta" >¿CUANDO RECIBO MI PROGRAMA?</div>
-                </div>
-                <p>Una vez que abonas vas a poder llenar un cuestionario para que hagamos un plan 100% a tu medida y luego de 72hs te voy a mandar por mail los archivos con todo lo que incluye tu plan.</p>
-            </div>
-
-            <div class="qa" data-aos="fade-up"  >
-                <div class="contenedor_pregunta">
-                    <div class="pregunta" >¿EN DONDE ESTA DISPONIBLE EL PROGRAMA?</div>
-                </div>
-                <p>Esta disponible en todo el mundo, cualquier persona de cualquier región lo puede adquirir.</p>
-            </div>
-
-            <div class="qa" data-aos="fade-up"  >
-                <div class="contenedor_pregunta">
-                    <div class="pregunta" >¿ME SIRVE PÁRA ENTRENAR EN CASA?</div>
-                </div>
-                <p>¡Especialmente si entrenas en casa podemos hacer un plan a tu medida!</p>
-            </div>
-
-            <div class="qa" data-aos="fade-up"  >
-                <div class="contenedor_pregunta">
-                    <div class="pregunta" >¿CUÁNTO DURA EL PLAN?</div>
-                </div>
-                <p>Cada plan dura un mes y lo que abonas es una SUSCRIPCION ya que lo ideal es continuarlo hasta que logres el objetivo que viniste a buscar! Recordá que la idea es lograr tu resultado, no dejarlo por la mitad.</p>
-            </div>
-
-            <div class="qa" data-aos="fade-up"  >
-                <div class="contenedor_pregunta">
-                    <div class="pregunta" >¿CÓMO FUNCIONA LA RENOVACION DEL PLAN CADA MES?</div>
-                </div>
-                <p>Realizamos una actualización en los ejercicios, dieta y planificación según los resultados que hayas tenido y como te sentiste en ese mes. Por otro lado seguis contando con mi asesoramiento 1 a 1 vía WhatsApp para que te de seguimiento y consultarme lo que quieras.</p>
-            </div>
-
-            <div class="qa" data-aos="fade-up"  >
-                <div class="contenedor_pregunta">
-                    <div class="pregunta" >¿CÓMO FUNCIONA EL PAGO DE LA SUSCRIPCIÓN MES A MES?</div>
-                </div>
-                <p>Se debita automáticamente de tu TC en los primeros 10 dias del mes</p>
-            </div>
-
-            <div class="qa" data-aos="fade-up"  >
-                <div class="contenedor_pregunta">
-                    <div class="pregunta" >¿CUÁNTO TARDO EN LOGRAR MI RESULTADO?</div>
-                </div>
-                <p>Con este plan veras resultados ya en los primeros 20 dias, pero lo mínimo para alcanzar tu resultado son 3 meses de continuidad.</p>
-            </div>
-
-            <div class="qa" data-aos="fade-up"  >
-                <div class="contenedor_pregunta">
-                    <div class="pregunta" >¿CÓMO DOY DE BAJA LA SUSCRIPCION AL PLAN?</div>
-                </div>
-                <p>Me avisas con 10 días de anticipación a la finalización del mes y se contreta la baja.</p>
-            </div>
-
-        </div>
-        
-    </section>
-
-    <section id="precios">
-        <h3 class="h3_plan">SELECCIONA EL PLAN QUE QUERES</h3>
-
-    <div class="contenedor_de_precios">
-        <div class="cart_price cart_basic" data-aos="fade-up" >
-            <h3 class="h3_cart h3_primero_Cart h3_bas">PLAN DE ENTRENAMIENTO <br> <b>BASICO</b></h3>
-            <h2 class="price_usd">U$10<br>arg $4800</h2>
-            <div class="list_cart">
-                <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Rutina de entrenamiento</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Seguimiento vía WhatsApp.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Medicion del progreso: semanal
-                 con fotos y pesajes.</p>
-
-            </div>
-             <div class="div_button_plan ">  <a href="pago_ases_basic.html"> <button class="button_plan aos-init aos-animate boton_basico"> COMENZAR AHORA </button></a> </div>
-        </div>
-
-
-        <div class="cart_price cart_medio" data-aos="fade-up" >
-            <h3 class="h3_cart h3_primero_Cart h3_med">MEDIO<br> <b>PLAN ENTRENAMIENTO + ALIMENTACION</b></h3>
-            <h2 class="price_usd">U$15 - arg $7.200</h2>
-            <div class="list_cart_med">
-                <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Rutina de entrenamiento</p>
-                 
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Dieta con varias opciones en cada comida.
-                 Lista de compras.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Recetas fit riquísimas.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Seguimiento vía WhatsApp.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Medicion del progreso: semanal
-                 con fotos y pesajes.</p>
-
-            </div>
-             <div class="div_button_plan button_mid" >  <a href="pago_ases_medium.html"> <button class="button_plan aos-init aos-animate boton_medio">COMENZAR AHORA </button></a> </div>
-        </div>
-
-        <div class="cart_price cart_avan" data-aos="fade-up" >
-            <h3 class="h3_cart h3_primero_Cart h3_med">AVANZADO <br> <b>PLAN DE ENTRENAMIENTO + ALIMENTACION + PLANIFICACION MESOCICLO + EBOOK
-                REGALO</b></h3>
-            <h2 class="price_usd">u$22 – arg $10.600</h2>
-            <div class="list_cart_avan">
-                <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Rutina de entrenamiento</p>
-                 
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Excel con planificación del mesociclo.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> eBook “diseña tu rutina”.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Dieta con varias opciones en cada comida.
-                 Lista de compras.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Recetas fit riquísimas.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Seguimiento vía WhatsApp.</p>
-
-                 <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 20 20" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"  margin-right="2px"stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 12l5 5l10 -10"></path>
-                 </svg> Medicion del progreso: semanal
-                 con fotos y pesajes.</p>
-
-            </div>
-             <div class="div_button_plan button_avan" >  <a href="pago_ases_avan.html"> <button class="button_plan aos-init aos-animate boton_avanzado">COMENZAR AHORA</button></a> </div>
-        </div>
-    </div>
-    </section>
-    
-    <section id="ebook_principal"data-aos="zoom-in">
-        <h3 class=" h3_ebook" >EBOOK DISEÑA TU RUTINA</h3> 
-        <div class="barr barr_ebook"></div>
-        <div class="contenedor_img_ebook_principal"data-aos="zoom-in" > 
-            <img src="img/ebook_image.jpeg" alt="Mi imagen"> 
-        </div>
-        <a href="ebook.html"> <button class="button_ebook aos-init aos-animate"> QUIERO SABER MAS </button></a>
-       
-    </section>
-    <a href="https://api.whatsapp.com/send?phone=541157828227" class="wpp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
-    
-    
+    <a href="https://api.whatsapp.com/send?phone=541134778417" class="wpp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
 
     <footer>
-            <h3 class="sobremi_h3 h3foo"> MIS REDES</h3>
-            <div class="footer_img">
-                <a href="https://www.instagram.com/jeronimopandelo/?hl=es" target="_blank">
-            <img src="img/ig.png" alt="" class="instagram">
-        </a>
-        <a href="https://www.tiktok.com/@jeronimopandelofit" target="_blank">
-            <img src="img/tiktok.png" alt="" class="tiktok">
-        </a>
+        <div class="logo_footer">        
+            <img src="img/logo.png" alt="">
+            <h3>Valentin Valle</h3>
+            <div class="sub_footer" ></div>
         </div>
-    </footer>
-    <script src="funciones.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+
+        <div class="social_media">
+            <a href="https://www.instagram.com/valle.valen/" target="_blank"><img src="White_One/img/instagram.png" alt="" class="instagram social"></a>
+            <a href="mail.html" target="_blank"><img src="img/mail.png" alt="" class="tiktok social"></a>
+        </div>
+
+      </footer>
+      
+
+      <script src="code.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+          AOS.init({duration:1000});
+        </script>
 </body>
 </html>
